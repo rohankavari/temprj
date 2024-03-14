@@ -1,0 +1,2823 @@
+[2024-03-07 16:54:14,683] WARNING - You must pass the application as an import string to enable 'reload' or 'workers'.
+[2024-03-07 16:54:32,231] INFO - Started server process [4488]
+[2024-03-07 16:54:32,231] INFO - Waiting for application startup.
+[2024-03-07 16:54:32,232] INFO - ASGI 'lifespan' protocol appears unsupported.
+[2024-03-07 16:54:32,232] INFO - Application startup complete.
+[2024-03-07 16:54:32,232] INFO - Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+[2024-03-07 16:54:51,370] INFO - 127.0.0.1:51353 - "GET / HTTP/1.1" 200
+[2024-03-07 16:54:51,371] INFO - 
+                "status": "success"
+                'status': localhost
+                'hostname': localhost
+                'ip_address': localhost
+                'path': localhost
+                'method': localhost
+                'status': localhost
+                'response_time': localhost
+                
+[2024-03-07 16:54:51,467] INFO - 127.0.0.1:51353 - "GET /favicon.ico HTTP/1.1" 404
+[2024-03-07 16:54:51,468] INFO - 
+                "status": "success"
+                'status': localhost
+                'hostname': localhost
+                'ip_address': localhost
+                'path': localhost
+                'method': localhost
+                'status': localhost
+                'response_time': localhost
+                
+[2024-03-07 16:56:11,383] INFO - Shutting down
+[2024-03-07 16:56:11,492] INFO - Finished server process [4488]
+[2024-03-07 16:56:13,483] WARNING - You must pass the application as an import string to enable 'reload' or 'workers'.
+[2024-03-07 16:56:26,916] INFO - Started server process [7196]
+[2024-03-07 16:56:26,916] INFO - Waiting for application startup.
+[2024-03-07 16:56:26,917] INFO - ASGI 'lifespan' protocol appears unsupported.
+[2024-03-07 16:56:26,917] INFO - Application startup complete.
+[2024-03-07 16:56:26,917] INFO - Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+[2024-03-07 16:56:30,771] INFO - 127.0.0.1:51440 - "GET / HTTP/1.1" 200
+[2024-03-07 16:56:30,771] ERROR - Exception in ASGI application
+Traceback (most recent call last):
+  File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\uvicorn\protocols\http\h11_impl.py", line 412, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+  File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\uvicorn\middleware\proxy_headers.py", line 84, in __call__
+    return await self.app(scope, receive, send)
+  File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\fastapi\applications.py", line 1054, in __call__
+    await super().__call__(scope, receive, send)
+  File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\applications.py", line 123, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\middleware\errors.py", line 186, in __call__
+    raise exc
+  File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\middleware\errors.py", line 164, in __call__
+    await self.app(scope, receive, _send)
+  File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\middleware\cors.py", line 83, in __call__
+    await self.app(scope, receive, send)
+  File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\main.py", line 28, in __call__
+    "status": response.status_code,
+AttributeError: 'NoneType' object has no attribute 'status_code'
+[2024-03-07 16:56:33,373] INFO - 127.0.0.1:51441 - "GET / HTTP/1.1" 200
+[2024-03-07 16:56:33,374] ERROR - Exception in ASGI application
+Traceback (most recent call last):
+  File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\uvicorn\protocols\http\h11_impl.py", line 412, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+  File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\uvicorn\middleware\proxy_headers.py", line 84, in __call__
+    return await self.app(scope, receive, send)
+  File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\fastapi\applications.py", line 1054, in __call__
+    await super().__call__(scope, receive, send)
+  File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\applications.py", line 123, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\middleware\errors.py", line 186, in __call__
+    raise exc
+  File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\middleware\errors.py", line 164, in __call__
+    await self.app(scope, receive, _send)
+  File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\middleware\cors.py", line 83, in __call__
+    await self.app(scope, receive, send)
+  File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\main.py", line 28, in __call__
+    "status": response.status_code,
+AttributeError: 'NoneType' object has no attribute 'status_code'
+[2024-03-07 16:56:34,037] INFO - 127.0.0.1:51442 - "GET / HTTP/1.1" 200
+[2024-03-07 16:56:34,038] ERROR - Exception in ASGI application
+Traceback (most recent call last):
+  File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\uvicorn\protocols\http\h11_impl.py", line 412, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+  File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\uvicorn\middleware\proxy_headers.py", line 84, in __call__
+    return await self.app(scope, receive, send)
+  File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\fastapi\applications.py", line 1054, in __call__
+    await super().__call__(scope, receive, send)
+  File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\applications.py", line 123, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\middleware\errors.py", line 186, in __call__
+    raise exc
+  File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\middleware\errors.py", line 164, in __call__
+    await self.app(scope, receive, _send)
+  File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\middleware\cors.py", line 83, in __call__
+    await self.app(scope, receive, send)
+  File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\main.py", line 28, in __call__
+    "status": response.status_code,
+AttributeError: 'NoneType' object has no attribute 'status_code'
+[2024-03-07 16:56:54,835] INFO - Shutting down
+[2024-03-07 16:56:54,944] INFO - Finished server process [7196]
+[2024-03-07 16:56:56,613] INFO - Started server process [9616]
+[2024-03-07 16:56:56,614] INFO - Waiting for application startup.
+[2024-03-07 16:56:56,614] INFO - ASGI 'lifespan' protocol appears unsupported.
+[2024-03-07 16:56:56,615] INFO - Application startup complete.
+[2024-03-07 16:56:56,615] INFO - Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+[2024-03-07 16:56:58,071] INFO - 127.0.0.1:51471 - "GET / HTTP/1.1" 200
+[2024-03-07 16:56:58,071] ERROR - Exception in ASGI application
+Traceback (most recent call last):
+  File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\uvicorn\protocols\http\h11_impl.py", line 412, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+  File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\uvicorn\middleware\proxy_headers.py", line 84, in __call__
+    return await self.app(scope, receive, send)
+  File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\fastapi\applications.py", line 1054, in __call__
+    await super().__call__(scope, receive, send)
+  File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\applications.py", line 123, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\middleware\errors.py", line 186, in __call__
+    raise exc
+  File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\middleware\errors.py", line 164, in __call__
+    await self.app(scope, receive, _send)
+  File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\middleware\cors.py", line 83, in __call__
+    await self.app(scope, receive, send)
+  File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\main.py", line 28, in __call__
+    "status": response.status_code,
+AttributeError: 'NoneType' object has no attribute 'status_code'
+[2024-03-07 17:16:43,636] INFO - Shutting down
+[2024-03-07 17:16:43,745] INFO - Finished server process [9616]
+[2024-03-07 17:17:34,369] INFO - Started server process [18256]
+[2024-03-07 17:17:34,370] INFO - Waiting for application startup.
+[2024-03-07 17:17:34,370] INFO - ASGI 'lifespan' protocol appears unsupported.
+[2024-03-07 17:17:34,370] INFO - Application startup complete.
+[2024-03-07 17:17:34,371] INFO - Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+[2024-03-07 17:17:45,437] INFO - 127.0.0.1:52889 - "GET / HTTP/1.1" 500
+[2024-03-07 17:17:45,438] ERROR - Exception in ASGI application
+Traceback (most recent call last):
+  File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\uvicorn\protocols\http\h11_impl.py", line 412, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+  File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\uvicorn\middleware\proxy_headers.py", line 84, in __call__
+    return await self.app(scope, receive, send)
+  File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\fastapi\applications.py", line 1054, in __call__
+    await super().__call__(scope, receive, send)
+  File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\applications.py", line 123, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\middleware\errors.py", line 186, in __call__
+    raise exc
+  File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\middleware\errors.py", line 164, in __call__
+    await self.app(scope, receive, _send)
+  File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\middleware\cors.py", line 83, in __call__
+    await self.app(scope, receive, send)
+TypeError: RequestLoggingMiddleware.__call__() takes 3 positional arguments but 4 were given
+[2024-03-07 17:19:39,855] INFO - Shutting down
+[2024-03-07 17:19:39,965] INFO - Finished server process [18256]
+[2024-03-07 17:19:41,557] INFO - Started server process [14556]
+[2024-03-07 17:19:41,557] INFO - Waiting for application startup.
+[2024-03-07 17:19:41,557] INFO - Application startup complete.
+[2024-03-07 17:19:41,558] INFO - Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+[2024-03-07 17:19:45,549] INFO - 127.0.0.1:53014 - "GET / HTTP/1.1" 500
+[2024-03-07 17:19:45,550] ERROR - Exception in ASGI application
+  + Exception Group Traceback (most recent call last):
+  |   File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\_utils.py", line 87, in collapse_excgroups
+  |     yield
+  |   File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\middleware\base.py", line 190, in __call__
+  |     async with anyio.create_task_group() as task_group:
+  |   File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\anyio\_backends\_asyncio.py", line 678, in __aexit__
+  |     raise BaseExceptionGroup(
+  | exceptiongroup.ExceptionGroup: unhandled errors in a TaskGroup (1 sub-exception)
+  +-+---------------- 1 ----------------
+    | Traceback (most recent call last):
+    |   File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\uvicorn\protocols\http\h11_impl.py", line 412, in run_asgi
+    |     result = await app(  # type: ignore[func-returns-value]
+    |   File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\uvicorn\middleware\proxy_headers.py", line 84, in __call__
+    |     return await self.app(scope, receive, send)
+    |   File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\fastapi\applications.py", line 1054, in __call__
+    |     await super().__call__(scope, receive, send)
+    |   File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\applications.py", line 123, in __call__
+    |     await self.middleware_stack(scope, receive, send)
+    |   File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\middleware\errors.py", line 186, in __call__
+    |     raise exc
+    |   File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\middleware\errors.py", line 164, in __call__
+    |     await self.app(scope, receive, _send)
+    |   File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\middleware\cors.py", line 83, in __call__
+    |     await self.app(scope, receive, send)
+    |   File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\middleware\base.py", line 189, in __call__
+    |     with collapse_excgroups():
+    |   File "C:\Users\Conmove_ml\AppData\Local\Programs\Python\Python310\lib\contextlib.py", line 153, in __exit__
+    |     self.gen.throw(typ, value, traceback)
+    |   File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\_utils.py", line 93, in collapse_excgroups
+    |     raise exc
+    |   File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\middleware\base.py", line 191, in __call__
+    |     response = await self.dispatch_func(request, call_next)
+    | TypeError: RequestLoggingMiddleware.__init__() takes 2 positional arguments but 3 were given
+    +------------------------------------
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\uvicorn\protocols\http\h11_impl.py", line 412, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+  File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\uvicorn\middleware\proxy_headers.py", line 84, in __call__
+    return await self.app(scope, receive, send)
+  File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\fastapi\applications.py", line 1054, in __call__
+    await super().__call__(scope, receive, send)
+  File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\applications.py", line 123, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\middleware\errors.py", line 186, in __call__
+    raise exc
+  File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\middleware\errors.py", line 164, in __call__
+    await self.app(scope, receive, _send)
+  File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\middleware\cors.py", line 83, in __call__
+    await self.app(scope, receive, send)
+  File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\middleware\base.py", line 189, in __call__
+    with collapse_excgroups():
+  File "C:\Users\Conmove_ml\AppData\Local\Programs\Python\Python310\lib\contextlib.py", line 153, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\_utils.py", line 93, in collapse_excgroups
+    raise exc
+  File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\middleware\base.py", line 191, in __call__
+    response = await self.dispatch_func(request, call_next)
+TypeError: RequestLoggingMiddleware.__init__() takes 2 positional arguments but 3 were given
+[2024-03-07 17:26:44,224] INFO - Shutting down
+[2024-03-07 17:26:44,336] INFO - Waiting for application shutdown.
+[2024-03-07 17:26:44,337] INFO - Application shutdown complete.
+[2024-03-07 17:26:44,338] INFO - Finished server process [14556]
+[2024-03-07 17:26:46,820] INFO - Started server process [10432]
+[2024-03-07 17:26:46,821] INFO - Waiting for application startup.
+[2024-03-07 17:26:46,821] INFO - Application startup complete.
+[2024-03-07 17:26:46,822] INFO - Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+[2024-03-07 17:26:56,867] INFO - 
+                "status": "success",|
+                'hostname': localhost
+                'ip_address': 127.0.0.1
+                'path': http://localhost:8000/
+                'method': GET
+                'status': 200
+                'response_time': (41,)
+                
+[2024-03-07 17:26:56,868] INFO - 127.0.0.1:53404 - "GET / HTTP/1.1" 200
+[2024-03-07 17:27:10,556] INFO - Shutting down
+[2024-03-07 17:27:10,666] INFO - Waiting for application shutdown.
+[2024-03-07 17:27:10,667] INFO - Application shutdown complete.
+[2024-03-07 17:27:10,667] INFO - Finished server process [10432]
+[2024-03-07 17:27:12,569] INFO - Started server process [18192]
+[2024-03-07 17:27:12,570] INFO - Waiting for application startup.
+[2024-03-07 17:27:12,570] INFO - Application startup complete.
+[2024-03-07 17:27:12,570] INFO - Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+[2024-03-07 17:27:13,476] INFO - 
+                "status": "success",|
+                'hostname': localhost
+                'ip_address': 127.0.0.1
+                'path': http://localhost:8000/
+                'method': GET
+                'status': 200
+                'response_time': 2
+                
+[2024-03-07 17:27:13,478] INFO - 127.0.0.1:53430 - "GET / HTTP/1.1" 200
+[2024-03-07 17:27:35,109] INFO - Shutting down
+[2024-03-07 17:27:35,220] INFO - Waiting for application shutdown.
+[2024-03-07 17:27:35,221] INFO - Application shutdown complete.
+[2024-03-07 17:27:35,221] INFO - Finished server process [18192]
+[2024-03-07 17:27:41,104] INFO - Started server process [15760]
+[2024-03-07 17:27:41,105] INFO - Waiting for application startup.
+[2024-03-07 17:27:41,106] INFO - Application startup complete.
+[2024-03-07 17:27:41,107] INFO - Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+[2024-03-07 17:27:43,037] INFO - 
+                "status": "success",|
+                'hostname': localhost
+                'ip_address': 127.0.0.1
+                'path': http://localhost:8000/
+                'method': GET
+                'status': 200
+                'response_time': 0
+                
+[2024-03-07 17:27:43,037] INFO - 127.0.0.1:53456 - "GET / HTTP/1.1" 200
+[2024-03-07 17:27:44,082] INFO - 
+                "status": "success",|
+                'hostname': localhost
+                'ip_address': 127.0.0.1
+                'path': http://localhost:8000/
+                'method': GET
+                'status': 200
+                'response_time': 0
+                
+[2024-03-07 17:27:44,082] INFO - 127.0.0.1:53456 - "GET / HTTP/1.1" 200
+[2024-03-07 17:28:03,706] INFO - Shutting down
+[2024-03-07 17:28:03,817] INFO - Waiting for application shutdown.
+[2024-03-07 17:28:03,818] INFO - Application shutdown complete.
+[2024-03-07 17:28:03,818] INFO - Finished server process [15760]
+[2024-03-07 17:28:05,817] INFO - Started server process [15800]
+[2024-03-07 17:28:05,817] INFO - Waiting for application startup.
+[2024-03-07 17:28:05,817] INFO - Application startup complete.
+[2024-03-07 17:28:05,818] INFO - Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+[2024-03-07 17:28:14,972] INFO - 
+                "status": "success",|
+                'hostname': localhost
+                'ip_address': 127.0.0.1
+                'path': http://localhost:8000/
+                'method': GET
+                'status': 200
+                'response_time': 0.0010027885437011719
+                
+[2024-03-07 17:28:14,972] INFO - 127.0.0.1:53513 - "GET / HTTP/1.1" 200
+[2024-03-07 17:28:15,361] INFO - 
+                "status": "success",|
+                'hostname': localhost
+                'ip_address': 127.0.0.1
+                'path': http://localhost:8000/
+                'method': GET
+                'status': 200
+                'response_time': 0.0010342597961425781
+                
+[2024-03-07 17:28:15,361] INFO - 127.0.0.1:53513 - "GET / HTTP/1.1" 200
+[2024-03-07 17:29:43,993] INFO - Shutting down
+[2024-03-07 17:29:44,104] INFO - Waiting for application shutdown.
+[2024-03-07 17:29:44,105] INFO - Application shutdown complete.
+[2024-03-07 17:29:44,105] INFO - Finished server process [15800]
+[2024-03-07 17:29:45,810] INFO - Started server process [13400]
+[2024-03-07 17:29:45,811] INFO - Waiting for application startup.
+[2024-03-07 17:29:45,811] INFO - Application startup complete.
+[2024-03-07 17:29:45,811] INFO - Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+[2024-03-07 17:29:48,121] INFO - 
+                "status": "success",|
+                'hostname': localhost
+                'ip_address': 127.0.0.1
+                'status': 200
+                'response_time': 0.0019974708557128906
+                
+[2024-03-07 17:29:48,122] INFO - 127.0.0.1:53609 - "GET / HTTP/1.1" 200
+[2024-03-07 17:30:17,556] INFO - Shutting down
+[2024-03-07 17:30:17,667] INFO - Waiting for application shutdown.
+[2024-03-07 17:30:17,672] INFO - Application shutdown complete.
+[2024-03-07 17:30:17,673] INFO - Finished server process [13400]
+[2024-03-07 17:30:19,373] INFO - Started server process [10368]
+[2024-03-07 17:30:19,374] INFO - Waiting for application startup.
+[2024-03-07 17:30:19,374] INFO - Application startup complete.
+[2024-03-07 17:30:19,375] INFO - Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+[2024-03-07 17:30:24,246] INFO - 
+                "status": "success",|
+                'hostname': localhost
+                'ip_address': 127.0.0.1
+                'status': 200
+                'response_time': 1.996755599975586
+                
+[2024-03-07 17:30:24,246] INFO - 127.0.0.1:53653 - "GET / HTTP/1.1" 200
+[2024-03-07 17:30:52,273] INFO - 
+                "status": "success",|
+                'hostname': localhost
+                'ip_address': 127.0.0.1
+                'status': 200
+                'response_time': 0.99945068359375
+                
+[2024-03-07 17:30:52,274] INFO - 127.0.0.1:53690 - "GET / HTTP/1.1" 200
+[2024-03-07 17:30:58,344] INFO - 
+                "status": "success",|
+                'hostname': localhost
+                'ip_address': 127.0.0.1
+                'status': 200
+                'response_time': 1.0030269622802734
+                
+[2024-03-07 17:30:58,344] INFO - 127.0.0.1:53691 - "GET / HTTP/1.1" 200
+[2024-03-07 17:30:59,828] INFO - 
+                "status": "success",|
+                'hostname': localhost
+                'ip_address': 127.0.0.1
+                'status': 200
+                'response_time': 1.0018348693847656
+                
+[2024-03-07 17:30:59,831] INFO - 127.0.0.1:53691 - "GET / HTTP/1.1" 200
+[2024-03-07 17:31:00,611] INFO - 
+                "status": "success",|
+                'hostname': localhost
+                'ip_address': 127.0.0.1
+                'status': 200
+                'response_time': 2.0334720611572266
+                
+[2024-03-07 17:31:00,614] INFO - 127.0.0.1:53691 - "GET / HTTP/1.1" 200
+[2024-03-07 17:31:04,990] INFO - 
+                "status": "success",|
+                'hostname': localhost
+                'ip_address': 127.0.0.1
+                'status': 200
+                'response_time': 1.0404586791992188
+                
+[2024-03-07 17:31:04,991] INFO - 127.0.0.1:53714 - "GET / HTTP/1.1" 200
+[2024-03-07 17:31:05,429] INFO - 
+                "status": "success",|
+                'hostname': localhost
+                'ip_address': 127.0.0.1
+                'status': 200
+                'response_time': 0.9944438934326172
+                
+[2024-03-07 17:31:05,430] INFO - 127.0.0.1:53714 - "GET / HTTP/1.1" 200
+[2024-03-07 17:31:06,247] INFO - 
+                "status": "success",|
+                'hostname': localhost
+                'ip_address': 127.0.0.1
+                'status': 200
+                'response_time': 1.9991397857666016
+                
+[2024-03-07 17:31:06,249] INFO - 127.0.0.1:53714 - "GET / HTTP/1.1" 200
+[2024-03-07 17:31:06,777] INFO - 
+                "status": "success",|
+                'hostname': localhost
+                'ip_address': 127.0.0.1
+                'status': 200
+                'response_time': 0.9999275207519531
+                
+[2024-03-07 17:31:06,777] INFO - 127.0.0.1:53714 - "GET / HTTP/1.1" 200
+[2024-03-07 17:31:07,175] INFO - 
+                "status": "success",|
+                'hostname': localhost
+                'ip_address': 127.0.0.1
+                'status': 200
+                'response_time': 2.997159957885742
+                
+[2024-03-07 17:31:07,176] INFO - 127.0.0.1:53714 - "GET / HTTP/1.1" 200
+[2024-03-07 17:31:07,346] INFO - 
+                "status": "success",|
+                'hostname': localhost
+                'ip_address': 127.0.0.1
+                'status': 200
+                'response_time': 1.0013580322265625
+                
+[2024-03-07 17:31:07,347] INFO - 127.0.0.1:53714 - "GET / HTTP/1.1" 200
+[2024-03-07 17:31:07,517] INFO - 
+                "status": "success",|
+                'hostname': localhost
+                'ip_address': 127.0.0.1
+                'status': 200
+                'response_time': 3.9963722229003906
+                
+[2024-03-07 17:31:07,519] INFO - 127.0.0.1:53714 - "GET / HTTP/1.1" 200
+[2024-03-07 17:31:07,659] INFO - 
+                "status": "success",|
+                'hostname': localhost
+                'ip_address': 127.0.0.1
+                'status': 200
+                'response_time': 0.9980201721191406
+                
+[2024-03-07 17:31:07,659] INFO - 127.0.0.1:53714 - "GET / HTTP/1.1" 200
+[2024-03-07 17:31:07,795] INFO - 
+                "status": "success",|
+                'hostname': localhost
+                'ip_address': 127.0.0.1
+                'status': 200
+                'response_time': 1.001119613647461
+                
+[2024-03-07 17:31:07,796] INFO - 127.0.0.1:53714 - "GET / HTTP/1.1" 200
+[2024-03-07 17:31:08,079] INFO - 
+                "status": "success",|
+                'hostname': localhost
+                'ip_address': 127.0.0.1
+                'status': 200
+                'response_time': 1.996755599975586
+                
+[2024-03-07 17:31:08,080] INFO - 127.0.0.1:53714 - "GET / HTTP/1.1" 200
+[2024-03-07 17:31:08,239] INFO - 
+                "status": "success",|
+                'hostname': localhost
+                'ip_address': 127.0.0.1
+                'status': 200
+                'response_time': 0.99945068359375
+                
+[2024-03-07 17:31:08,239] INFO - 127.0.0.1:53714 - "GET / HTTP/1.1" 200
+[2024-03-07 17:31:08,377] INFO - 
+                "status": "success",|
+                'hostname': localhost
+                'ip_address': 127.0.0.1
+                'status': 200
+                'response_time': 0.9999275207519531
+                
+[2024-03-07 17:31:08,377] INFO - 127.0.0.1:53714 - "GET / HTTP/1.1" 200
+[2024-03-07 17:31:08,532] INFO - 
+                "status": "success",|
+                'hostname': localhost
+                'ip_address': 127.0.0.1
+                'status': 200
+                'response_time': 1.0018348693847656
+                
+[2024-03-07 17:31:08,533] INFO - 127.0.0.1:53714 - "GET / HTTP/1.1" 200
+[2024-03-07 17:31:08,693] INFO - 
+                "status": "success",|
+                'hostname': localhost
+                'ip_address': 127.0.0.1
+                'status': 200
+                'response_time': 1.0001659393310547
+                
+[2024-03-07 17:31:08,693] INFO - 127.0.0.1:53714 - "GET / HTTP/1.1" 200
+[2024-03-07 17:31:08,850] INFO - 
+                "status": "success",|
+                'hostname': localhost
+                'ip_address': 127.0.0.1
+                'status': 200
+                'response_time': 1.001596450805664
+                
+[2024-03-07 17:31:08,850] INFO - 127.0.0.1:53714 - "GET / HTTP/1.1" 200
+[2024-03-07 17:31:09,018] INFO - 
+                "status": "success",|
+                'hostname': localhost
+                'ip_address': 127.0.0.1
+                'status': 200
+                'response_time': 1.001119613647461
+                
+[2024-03-07 17:31:09,019] INFO - 127.0.0.1:53714 - "GET / HTTP/1.1" 200
+[2024-03-07 17:31:09,178] INFO - 
+                "status": "success",|
+                'hostname': localhost
+                'ip_address': 127.0.0.1
+                'status': 200
+                'response_time': 3.000020980834961
+                
+[2024-03-07 17:31:09,180] INFO - 127.0.0.1:53714 - "GET / HTTP/1.1" 200
+[2024-03-07 17:31:09,313] INFO - 
+                "status": "success",|
+                'hostname': localhost
+                'ip_address': 127.0.0.1
+                'status': 200
+                'response_time': 1.003265380859375
+                
+[2024-03-07 17:31:09,314] INFO - 127.0.0.1:53714 - "GET / HTTP/1.1" 200
+[2024-03-07 17:31:09,474] INFO - 
+                "status": "success",|
+                'hostname': localhost
+                'ip_address': 127.0.0.1
+                'status': 200
+                'response_time': 0.9996891021728516
+                
+[2024-03-07 17:31:09,475] INFO - 127.0.0.1:53714 - "GET / HTTP/1.1" 200
+[2024-03-07 17:31:53,293] INFO - Shutting down
+[2024-03-07 17:31:53,404] INFO - Waiting for application shutdown.
+[2024-03-07 17:31:53,405] INFO - Application shutdown complete.
+[2024-03-07 17:31:53,405] INFO - Finished server process [10368]
+[2024-03-07 17:31:55,334] INFO - Started server process [12252]
+[2024-03-07 17:31:55,335] INFO - Waiting for application startup.
+[2024-03-07 17:31:55,335] INFO - Application startup complete.
+[2024-03-07 17:31:55,336] INFO - Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+[2024-03-07 17:31:59,690] INFO - 
+                "status": "success",|
+                'hostname': localhost
+                'ip_address': 127.0.0.1
+                'status': 200
+                'response_time': 2 MS
+                
+[2024-03-07 17:31:59,690] INFO - 127.0.0.1:53820 - "GET / HTTP/1.1" 200
+[2024-03-07 17:33:42,656] INFO - Shutting down
+[2024-03-07 17:33:42,768] INFO - Waiting for application shutdown.
+[2024-03-07 17:33:42,768] INFO - Application shutdown complete.
+[2024-03-07 17:33:42,768] INFO - Finished server process [12252]
+[2024-03-07 17:33:44,731] INFO - Started server process [3356]
+[2024-03-07 17:33:44,731] INFO - Waiting for application startup.
+[2024-03-07 17:33:44,731] INFO - Application startup complete.
+[2024-03-07 17:33:44,732] INFO - Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+[2024-03-07 17:33:55,527] INFO - 
+                "status": "success",
+                'hostname': localhost
+                'ip_address': 127.0.0.1
+                'path': http://localhost:8000/
+                'method': GET
+                'status': 200
+                'response_time': 3MS
+                
+[2024-03-07 17:33:55,527] INFO - 127.0.0.1:53943 - "GET / HTTP/1.1" 200
+[2024-03-07 17:41:06,013] INFO - 
+                "status": "success",
+                'hostname': localhost
+                'ip_address': 127.0.0.1
+                'path': http://localhost:8000/route
+                'method': GET
+                'status': 404
+                'response_time': 0MS
+                
+[2024-03-07 17:41:06,013] INFO - 127.0.0.1:54316 - "GET /route HTTP/1.1" 404
+[2024-03-07 17:41:08,593] INFO - Shutting down
+[2024-03-07 17:41:08,698] INFO - Waiting for application shutdown.
+[2024-03-07 17:41:08,699] INFO - Application shutdown complete.
+[2024-03-07 17:41:08,700] INFO - Finished server process [3356]
+[2024-03-07 17:41:10,516] INFO - Started server process [11664]
+[2024-03-07 17:41:10,516] INFO - Waiting for application startup.
+[2024-03-07 17:41:10,517] INFO - Application startup complete.
+[2024-03-07 17:41:10,517] INFO - Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+[2024-03-07 17:41:12,842] INFO - 
+                "status": "success",
+                'hostname': localhost
+                'ip_address': 127.0.0.1
+                'path': http://localhost:8000/route
+                'method': GET
+                'status': 200
+                'response_time': 1MS
+                
+[2024-03-07 17:41:12,843] INFO - 127.0.0.1:54328 - "GET /route HTTP/1.1" 200
+[2024-03-07 17:56:27,417] INFO - 
+                "status": "success",
+                'hostname': localhost
+                'ip_address': 127.0.0.1
+                'path': http://localhost:8000/route
+                'method': GET
+                'status': 200
+                'response_time': 2MS
+                
+[2024-03-07 17:56:27,419] INFO - 127.0.0.1:55200 - "GET /route HTTP/1.1" 200
+[2024-03-07 17:56:27,631] INFO - 
+                "status": "success",
+                'hostname': localhost
+                'ip_address': 127.0.0.1
+                'path': http://localhost:8000/route
+                'method': GET
+                'status': 200
+                'response_time': 1MS
+                
+[2024-03-07 17:56:27,632] INFO - 127.0.0.1:55200 - "GET /route HTTP/1.1" 200
+[2024-03-07 17:56:27,829] INFO - 
+                "status": "success",
+                'hostname': localhost
+                'ip_address': 127.0.0.1
+                'path': http://localhost:8000/route
+                'method': GET
+                'status': 200
+                'response_time': 1MS
+                
+[2024-03-07 17:56:27,832] INFO - 127.0.0.1:55200 - "GET /route HTTP/1.1" 200
+[2024-03-07 17:56:28,002] INFO - 
+                "status": "success",
+                'hostname': localhost
+                'ip_address': 127.0.0.1
+                'path': http://localhost:8000/route
+                'method': GET
+                'status': 200
+                'response_time': 0MS
+                
+[2024-03-07 17:56:28,003] INFO - 127.0.0.1:55200 - "GET /route HTTP/1.1" 200
+[2024-03-07 17:56:28,181] INFO - 
+                "status": "success",
+                'hostname': localhost
+                'ip_address': 127.0.0.1
+                'path': http://localhost:8000/route
+                'method': GET
+                'status': 200
+                'response_time': 0MS
+                
+[2024-03-07 17:56:28,182] INFO - 127.0.0.1:55200 - "GET /route HTTP/1.1" 200
+[2024-03-07 17:56:28,333] INFO - 
+                "status": "success",
+                'hostname': localhost
+                'ip_address': 127.0.0.1
+                'path': http://localhost:8000/route
+                'method': GET
+                'status': 200
+                'response_time': 1MS
+                
+[2024-03-07 17:56:28,335] INFO - 127.0.0.1:55200 - "GET /route HTTP/1.1" 200
+[2024-03-07 17:56:29,064] INFO - 
+                "status": "success",
+                'hostname': localhost
+                'ip_address': 127.0.0.1
+                'path': http://localhost:8000/route
+                'method': GET
+                'status': 200
+                'response_time': 3MS
+                
+[2024-03-07 17:56:29,065] INFO - 127.0.0.1:55200 - "GET /route HTTP/1.1" 200
+[2024-03-07 17:56:49,973] INFO - Shutting down
+[2024-03-07 17:56:50,085] INFO - Waiting for application shutdown.
+[2024-03-07 17:56:50,086] INFO - Application shutdown complete.
+[2024-03-07 17:56:50,086] INFO - Finished server process [11664]
+[2024-03-08 11:34:46,130] INFO - Started server process [16844]
+[2024-03-08 11:34:46,130] INFO - Waiting for application startup.
+[2024-03-08 11:34:46,134] INFO - Application startup complete.
+[2024-03-08 11:34:46,136] INFO - Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+[2024-03-08 11:35:01,046] INFO - Shutting down
+[2024-03-08 11:35:01,157] INFO - Waiting for application shutdown.
+[2024-03-08 11:35:01,159] INFO - Application shutdown complete.
+[2024-03-08 11:35:01,159] INFO - Finished server process [16844]
+[2024-03-08 11:35:02,826] INFO - Started server process [2196]
+[2024-03-08 11:35:02,826] INFO - Waiting for application startup.
+[2024-03-08 11:35:02,827] INFO - Application startup complete.
+[2024-03-08 11:35:02,828] INFO - Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+[2024-03-08 12:10:43,709] INFO - Shutting down
+[2024-03-08 12:10:43,816] INFO - Waiting for application shutdown.
+[2024-03-08 12:10:43,822] INFO - Application shutdown complete.
+[2024-03-08 12:10:43,823] INFO - Finished server process [2196]
+[2024-03-08 12:37:00,198] INFO - Started server process [10116]
+[2024-03-08 12:37:00,198] INFO - Waiting for application startup.
+[2024-03-08 12:37:00,211] INFO - Application startup complete.
+[2024-03-08 12:37:00,212] INFO - Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+[2024-03-08 12:37:32,300] INFO - 
+                "status": "success",
+                'hostname': 127.0.0.1
+                'ip_address': 127.0.0.1
+                'path': http://127.0.0.1:8000/
+                'method': GET
+                'status': 200
+                'response_time': 1987 MS
+                
+[2024-03-08 12:37:32,301] INFO - 127.0.0.1:55431 - "GET / HTTP/1.1" 500
+[2024-03-08 12:37:32,302] ERROR - Exception in ASGI application
+  + Exception Group Traceback (most recent call last):
+  |   File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\_utils.py", line 87, in collapse_excgroups
+  |     yield
+  |   File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\middleware\base.py", line 190, in __call__
+  |     async with anyio.create_task_group() as task_group:
+  |   File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\anyio\_backends\_asyncio.py", line 678, in __aexit__
+  |     raise BaseExceptionGroup(
+  | exceptiongroup.ExceptionGroup: unhandled errors in a TaskGroup (1 sub-exception)
+  +-+---------------- 1 ----------------
+    | Traceback (most recent call last):
+    |   File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\uvicorn\protocols\http\h11_impl.py", line 412, in run_asgi
+    |     result = await app(  # type: ignore[func-returns-value]
+    |   File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\uvicorn\middleware\proxy_headers.py", line 84, in __call__
+    |     return await self.app(scope, receive, send)
+    |   File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\fastapi\applications.py", line 1054, in __call__
+    |     await super().__call__(scope, receive, send)
+    |   File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\applications.py", line 123, in __call__
+    |     await self.middleware_stack(scope, receive, send)
+    |   File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\middleware\errors.py", line 186, in __call__
+    |     raise exc
+    |   File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\middleware\errors.py", line 164, in __call__
+    |     await self.app(scope, receive, _send)
+    |   File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\middleware\base.py", line 189, in __call__
+    |     with collapse_excgroups():
+    |   File "C:\Users\Conmove_ml\AppData\Local\Programs\Python\Python310\lib\contextlib.py", line 153, in __exit__
+    |     self.gen.throw(typ, value, traceback)
+    |   File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\_utils.py", line 93, in collapse_excgroups
+    |     raise exc
+    |   File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\middleware\base.py", line 191, in __call__
+    |     response = await self.dispatch_func(request, call_next)
+    |   File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\main.py", line 54, in add_process_time_header
+    |     cur.execute(insert_query, data_to_insert)
+    | sqlite3.OperationalError: 5 values for 4 columns
+    +------------------------------------
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\uvicorn\protocols\http\h11_impl.py", line 412, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+  File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\uvicorn\middleware\proxy_headers.py", line 84, in __call__
+    return await self.app(scope, receive, send)
+  File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\fastapi\applications.py", line 1054, in __call__
+    await super().__call__(scope, receive, send)
+  File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\applications.py", line 123, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\middleware\errors.py", line 186, in __call__
+    raise exc
+  File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\middleware\errors.py", line 164, in __call__
+    await self.app(scope, receive, _send)
+  File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\middleware\base.py", line 189, in __call__
+    with collapse_excgroups():
+  File "C:\Users\Conmove_ml\AppData\Local\Programs\Python\Python310\lib\contextlib.py", line 153, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\_utils.py", line 93, in collapse_excgroups
+    raise exc
+  File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\middleware\base.py", line 191, in __call__
+    response = await self.dispatch_func(request, call_next)
+  File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\main.py", line 54, in add_process_time_header
+    cur.execute(insert_query, data_to_insert)
+sqlite3.OperationalError: 5 values for 4 columns
+[2024-03-08 12:37:32,371] INFO - 
+                "status": "success",
+                'hostname': 127.0.0.1
+                'ip_address': 127.0.0.1
+                'path': http://127.0.0.1:8000/
+                'method': GET
+                'status': 200
+                'response_time': 1 MS
+                
+[2024-03-08 12:37:32,372] INFO - 127.0.0.1:55430 - "GET / HTTP/1.1" 500
+[2024-03-08 12:37:32,372] ERROR - Exception in ASGI application
+  + Exception Group Traceback (most recent call last):
+  |   File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\_utils.py", line 87, in collapse_excgroups
+  |     yield
+  |   File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\middleware\base.py", line 190, in __call__
+  |     async with anyio.create_task_group() as task_group:
+  |   File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\anyio\_backends\_asyncio.py", line 678, in __aexit__
+  |     raise BaseExceptionGroup(
+  | exceptiongroup.ExceptionGroup: unhandled errors in a TaskGroup (1 sub-exception)
+  +-+---------------- 1 ----------------
+    | Traceback (most recent call last):
+    |   File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\uvicorn\protocols\http\h11_impl.py", line 412, in run_asgi
+    |     result = await app(  # type: ignore[func-returns-value]
+    |   File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\uvicorn\middleware\proxy_headers.py", line 84, in __call__
+    |     return await self.app(scope, receive, send)
+    |   File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\fastapi\applications.py", line 1054, in __call__
+    |     await super().__call__(scope, receive, send)
+    |   File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\applications.py", line 123, in __call__
+    |     await self.middleware_stack(scope, receive, send)
+    |   File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\middleware\errors.py", line 186, in __call__
+    |     raise exc
+    |   File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\middleware\errors.py", line 164, in __call__
+    |     await self.app(scope, receive, _send)
+    |   File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\middleware\base.py", line 189, in __call__
+    |     with collapse_excgroups():
+    |   File "C:\Users\Conmove_ml\AppData\Local\Programs\Python\Python310\lib\contextlib.py", line 153, in __exit__
+    |     self.gen.throw(typ, value, traceback)
+    |   File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\_utils.py", line 93, in collapse_excgroups
+    |     raise exc
+    |   File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\middleware\base.py", line 191, in __call__
+    |     response = await self.dispatch_func(request, call_next)
+    |   File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\main.py", line 54, in add_process_time_header
+    |     cur.execute(insert_query, data_to_insert)
+    | sqlite3.OperationalError: 5 values for 4 columns
+    +------------------------------------
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\uvicorn\protocols\http\h11_impl.py", line 412, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+  File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\uvicorn\middleware\proxy_headers.py", line 84, in __call__
+    return await self.app(scope, receive, send)
+  File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\fastapi\applications.py", line 1054, in __call__
+    await super().__call__(scope, receive, send)
+  File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\applications.py", line 123, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\middleware\errors.py", line 186, in __call__
+    raise exc
+  File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\middleware\errors.py", line 164, in __call__
+    await self.app(scope, receive, _send)
+  File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\middleware\base.py", line 189, in __call__
+    with collapse_excgroups():
+  File "C:\Users\Conmove_ml\AppData\Local\Programs\Python\Python310\lib\contextlib.py", line 153, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\_utils.py", line 93, in collapse_excgroups
+    raise exc
+  File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\middleware\base.py", line 191, in __call__
+    response = await self.dispatch_func(request, call_next)
+  File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\main.py", line 54, in add_process_time_header
+    cur.execute(insert_query, data_to_insert)
+sqlite3.OperationalError: 5 values for 4 columns
+[2024-03-08 12:37:32,491] INFO - 
+                "status": "success",
+                'hostname': 127.0.0.1
+                'ip_address': 127.0.0.1
+                'path': http://127.0.0.1:8000/favicon.ico
+                'method': GET
+                'status': 404
+                'response_time': 0 MS
+                
+[2024-03-08 12:37:32,492] INFO - 127.0.0.1:55434 - "GET /favicon.ico HTTP/1.1" 500
+[2024-03-08 12:37:32,492] ERROR - Exception in ASGI application
+  + Exception Group Traceback (most recent call last):
+  |   File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\_utils.py", line 87, in collapse_excgroups
+  |     yield
+  |   File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\middleware\base.py", line 190, in __call__
+  |     async with anyio.create_task_group() as task_group:
+  |   File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\anyio\_backends\_asyncio.py", line 678, in __aexit__
+  |     raise BaseExceptionGroup(
+  | exceptiongroup.ExceptionGroup: unhandled errors in a TaskGroup (1 sub-exception)
+  +-+---------------- 1 ----------------
+    | Traceback (most recent call last):
+    |   File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\uvicorn\protocols\http\h11_impl.py", line 412, in run_asgi
+    |     result = await app(  # type: ignore[func-returns-value]
+    |   File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\uvicorn\middleware\proxy_headers.py", line 84, in __call__
+    |     return await self.app(scope, receive, send)
+    |   File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\fastapi\applications.py", line 1054, in __call__
+    |     await super().__call__(scope, receive, send)
+    |   File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\applications.py", line 123, in __call__
+    |     await self.middleware_stack(scope, receive, send)
+    |   File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\middleware\errors.py", line 186, in __call__
+    |     raise exc
+    |   File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\middleware\errors.py", line 164, in __call__
+    |     await self.app(scope, receive, _send)
+    |   File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\middleware\base.py", line 189, in __call__
+    |     with collapse_excgroups():
+    |   File "C:\Users\Conmove_ml\AppData\Local\Programs\Python\Python310\lib\contextlib.py", line 153, in __exit__
+    |     self.gen.throw(typ, value, traceback)
+    |   File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\_utils.py", line 93, in collapse_excgroups
+    |     raise exc
+    |   File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\middleware\base.py", line 191, in __call__
+    |     response = await self.dispatch_func(request, call_next)
+    |   File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\main.py", line 54, in add_process_time_header
+    |     cur.execute(insert_query, data_to_insert)
+    | sqlite3.OperationalError: 5 values for 4 columns
+    +------------------------------------
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\uvicorn\protocols\http\h11_impl.py", line 412, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+  File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\uvicorn\middleware\proxy_headers.py", line 84, in __call__
+    return await self.app(scope, receive, send)
+  File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\fastapi\applications.py", line 1054, in __call__
+    await super().__call__(scope, receive, send)
+  File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\applications.py", line 123, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\middleware\errors.py", line 186, in __call__
+    raise exc
+  File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\middleware\errors.py", line 164, in __call__
+    await self.app(scope, receive, _send)
+  File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\middleware\base.py", line 189, in __call__
+    with collapse_excgroups():
+  File "C:\Users\Conmove_ml\AppData\Local\Programs\Python\Python310\lib\contextlib.py", line 153, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\_utils.py", line 93, in collapse_excgroups
+    raise exc
+  File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\middleware\base.py", line 191, in __call__
+    response = await self.dispatch_func(request, call_next)
+  File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\main.py", line 54, in add_process_time_header
+    cur.execute(insert_query, data_to_insert)
+sqlite3.OperationalError: 5 values for 4 columns
+[2024-03-08 12:37:32,496] INFO - 
+                "status": "success",
+                'hostname': 127.0.0.1
+                'ip_address': 127.0.0.1
+                'path': http://127.0.0.1:8000/favicon.ico
+                'method': GET
+                'status': 404
+                'response_time': 1 MS
+                
+[2024-03-08 12:37:32,497] INFO - 127.0.0.1:55435 - "GET /favicon.ico HTTP/1.1" 500
+[2024-03-08 12:37:32,498] ERROR - Exception in ASGI application
+  + Exception Group Traceback (most recent call last):
+  |   File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\_utils.py", line 87, in collapse_excgroups
+  |     yield
+  |   File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\middleware\base.py", line 190, in __call__
+  |     async with anyio.create_task_group() as task_group:
+  |   File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\anyio\_backends\_asyncio.py", line 678, in __aexit__
+  |     raise BaseExceptionGroup(
+  | exceptiongroup.ExceptionGroup: unhandled errors in a TaskGroup (1 sub-exception)
+  +-+---------------- 1 ----------------
+    | Traceback (most recent call last):
+    |   File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\uvicorn\protocols\http\h11_impl.py", line 412, in run_asgi
+    |     result = await app(  # type: ignore[func-returns-value]
+    |   File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\uvicorn\middleware\proxy_headers.py", line 84, in __call__
+    |     return await self.app(scope, receive, send)
+    |   File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\fastapi\applications.py", line 1054, in __call__
+    |     await super().__call__(scope, receive, send)
+    |   File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\applications.py", line 123, in __call__
+    |     await self.middleware_stack(scope, receive, send)
+    |   File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\middleware\errors.py", line 186, in __call__
+    |     raise exc
+    |   File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\middleware\errors.py", line 164, in __call__
+    |     await self.app(scope, receive, _send)
+    |   File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\middleware\base.py", line 189, in __call__
+    |     with collapse_excgroups():
+    |   File "C:\Users\Conmove_ml\AppData\Local\Programs\Python\Python310\lib\contextlib.py", line 153, in __exit__
+    |     self.gen.throw(typ, value, traceback)
+    |   File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\_utils.py", line 93, in collapse_excgroups
+    |     raise exc
+    |   File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\middleware\base.py", line 191, in __call__
+    |     response = await self.dispatch_func(request, call_next)
+    |   File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\main.py", line 54, in add_process_time_header
+    |     cur.execute(insert_query, data_to_insert)
+    | sqlite3.OperationalError: 5 values for 4 columns
+    +------------------------------------
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\uvicorn\protocols\http\h11_impl.py", line 412, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+  File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\uvicorn\middleware\proxy_headers.py", line 84, in __call__
+    return await self.app(scope, receive, send)
+  File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\fastapi\applications.py", line 1054, in __call__
+    await super().__call__(scope, receive, send)
+  File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\applications.py", line 123, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\middleware\errors.py", line 186, in __call__
+    raise exc
+  File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\middleware\errors.py", line 164, in __call__
+    await self.app(scope, receive, _send)
+  File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\middleware\base.py", line 189, in __call__
+    with collapse_excgroups():
+  File "C:\Users\Conmove_ml\AppData\Local\Programs\Python\Python310\lib\contextlib.py", line 153, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\_utils.py", line 93, in collapse_excgroups
+    raise exc
+  File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\middleware\base.py", line 191, in __call__
+    response = await self.dispatch_func(request, call_next)
+  File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\main.py", line 54, in add_process_time_header
+    cur.execute(insert_query, data_to_insert)
+sqlite3.OperationalError: 5 values for 4 columns
+[2024-03-08 12:38:05,702] INFO - Shutting down
+[2024-03-08 12:38:05,813] INFO - Waiting for application shutdown.
+[2024-03-08 12:38:05,814] INFO - Application shutdown complete.
+[2024-03-08 12:38:05,815] INFO - Finished server process [10116]
+[2024-03-08 12:38:08,054] INFO - Started server process [3716]
+[2024-03-08 12:38:08,054] INFO - Waiting for application startup.
+[2024-03-08 12:38:08,056] INFO - Application startup complete.
+[2024-03-08 12:38:08,057] INFO - Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+[2024-03-08 12:38:09,546] INFO - 
+                "status": "success",
+                'hostname': 127.0.0.1
+                'ip_address': 127.0.0.1
+                'path': http://127.0.0.1:8000/
+                'method': GET
+                'status': 200
+                'response_time': 40 MS
+                
+[2024-03-08 12:38:09,547] INFO - 127.0.0.1:55463 - "GET / HTTP/1.1" 500
+[2024-03-08 12:38:09,548] ERROR - Exception in ASGI application
+  + Exception Group Traceback (most recent call last):
+  |   File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\_utils.py", line 87, in collapse_excgroups
+  |     yield
+  |   File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\middleware\base.py", line 190, in __call__
+  |     async with anyio.create_task_group() as task_group:
+  |   File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\anyio\_backends\_asyncio.py", line 678, in __aexit__
+  |     raise BaseExceptionGroup(
+  | exceptiongroup.ExceptionGroup: unhandled errors in a TaskGroup (1 sub-exception)
+  +-+---------------- 1 ----------------
+    | Traceback (most recent call last):
+    |   File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\uvicorn\protocols\http\h11_impl.py", line 412, in run_asgi
+    |     result = await app(  # type: ignore[func-returns-value]
+    |   File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\uvicorn\middleware\proxy_headers.py", line 84, in __call__
+    |     return await self.app(scope, receive, send)
+    |   File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\fastapi\applications.py", line 1054, in __call__
+    |     await super().__call__(scope, receive, send)
+    |   File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\applications.py", line 123, in __call__
+    |     await self.middleware_stack(scope, receive, send)
+    |   File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\middleware\errors.py", line 186, in __call__
+    |     raise exc
+    |   File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\middleware\errors.py", line 164, in __call__
+    |     await self.app(scope, receive, _send)
+    |   File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\middleware\base.py", line 189, in __call__
+    |     with collapse_excgroups():
+    |   File "C:\Users\Conmove_ml\AppData\Local\Programs\Python\Python310\lib\contextlib.py", line 153, in __exit__
+    |     self.gen.throw(typ, value, traceback)
+    |   File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\_utils.py", line 93, in collapse_excgroups
+    |     raise exc
+    |   File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\middleware\base.py", line 191, in __call__
+    |     response = await self.dispatch_func(request, call_next)
+    |   File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\main.py", line 54, in add_process_time_header
+    |     cur.execute(insert_query, data_to_insert)
+    | sqlite3.InterfaceError: Error binding parameter 1 - probably unsupported type.
+    +------------------------------------
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\uvicorn\protocols\http\h11_impl.py", line 412, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+  File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\uvicorn\middleware\proxy_headers.py", line 84, in __call__
+    return await self.app(scope, receive, send)
+  File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\fastapi\applications.py", line 1054, in __call__
+    await super().__call__(scope, receive, send)
+  File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\applications.py", line 123, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\middleware\errors.py", line 186, in __call__
+    raise exc
+  File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\middleware\errors.py", line 164, in __call__
+    await self.app(scope, receive, _send)
+  File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\middleware\base.py", line 189, in __call__
+    with collapse_excgroups():
+  File "C:\Users\Conmove_ml\AppData\Local\Programs\Python\Python310\lib\contextlib.py", line 153, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\_utils.py", line 93, in collapse_excgroups
+    raise exc
+  File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\middleware\base.py", line 191, in __call__
+    response = await self.dispatch_func(request, call_next)
+  File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\main.py", line 54, in add_process_time_header
+    cur.execute(insert_query, data_to_insert)
+sqlite3.InterfaceError: Error binding parameter 1 - probably unsupported type.
+[2024-03-08 12:38:09,586] INFO - 
+                "status": "success",
+                'hostname': 127.0.0.1
+                'ip_address': 127.0.0.1
+                'path': http://127.0.0.1:8000/favicon.ico
+                'method': GET
+                'status': 404
+                'response_time': 0 MS
+                
+[2024-03-08 12:38:09,587] INFO - 127.0.0.1:55464 - "GET /favicon.ico HTTP/1.1" 500
+[2024-03-08 12:38:09,588] ERROR - Exception in ASGI application
+  + Exception Group Traceback (most recent call last):
+  |   File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\_utils.py", line 87, in collapse_excgroups
+  |     yield
+  |   File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\middleware\base.py", line 190, in __call__
+  |     async with anyio.create_task_group() as task_group:
+  |   File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\anyio\_backends\_asyncio.py", line 678, in __aexit__
+  |     raise BaseExceptionGroup(
+  | exceptiongroup.ExceptionGroup: unhandled errors in a TaskGroup (1 sub-exception)
+  +-+---------------- 1 ----------------
+    | Traceback (most recent call last):
+    |   File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\uvicorn\protocols\http\h11_impl.py", line 412, in run_asgi
+    |     result = await app(  # type: ignore[func-returns-value]
+    |   File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\uvicorn\middleware\proxy_headers.py", line 84, in __call__
+    |     return await self.app(scope, receive, send)
+    |   File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\fastapi\applications.py", line 1054, in __call__
+    |     await super().__call__(scope, receive, send)
+    |   File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\applications.py", line 123, in __call__
+    |     await self.middleware_stack(scope, receive, send)
+    |   File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\middleware\errors.py", line 186, in __call__
+    |     raise exc
+    |   File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\middleware\errors.py", line 164, in __call__
+    |     await self.app(scope, receive, _send)
+    |   File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\middleware\base.py", line 189, in __call__
+    |     with collapse_excgroups():
+    |   File "C:\Users\Conmove_ml\AppData\Local\Programs\Python\Python310\lib\contextlib.py", line 153, in __exit__
+    |     self.gen.throw(typ, value, traceback)
+    |   File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\_utils.py", line 93, in collapse_excgroups
+    |     raise exc
+    |   File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\middleware\base.py", line 191, in __call__
+    |     response = await self.dispatch_func(request, call_next)
+    |   File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\main.py", line 54, in add_process_time_header
+    |     cur.execute(insert_query, data_to_insert)
+    | sqlite3.InterfaceError: Error binding parameter 1 - probably unsupported type.
+    +------------------------------------
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\uvicorn\protocols\http\h11_impl.py", line 412, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+  File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\uvicorn\middleware\proxy_headers.py", line 84, in __call__
+    return await self.app(scope, receive, send)
+  File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\fastapi\applications.py", line 1054, in __call__
+    await super().__call__(scope, receive, send)
+  File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\applications.py", line 123, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\middleware\errors.py", line 186, in __call__
+    raise exc
+  File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\middleware\errors.py", line 164, in __call__
+    await self.app(scope, receive, _send)
+  File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\middleware\base.py", line 189, in __call__
+    with collapse_excgroups():
+  File "C:\Users\Conmove_ml\AppData\Local\Programs\Python\Python310\lib\contextlib.py", line 153, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\_utils.py", line 93, in collapse_excgroups
+    raise exc
+  File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\middleware\base.py", line 191, in __call__
+    response = await self.dispatch_func(request, call_next)
+  File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\main.py", line 54, in add_process_time_header
+    cur.execute(insert_query, data_to_insert)
+sqlite3.InterfaceError: Error binding parameter 1 - probably unsupported type.
+[2024-03-08 12:38:10,946] INFO - 
+                "status": "success",
+                'hostname': 127.0.0.1
+                'ip_address': 127.0.0.1
+                'path': http://127.0.0.1:8000/
+                'method': GET
+                'status': 200
+                'response_time': 1 MS
+                
+[2024-03-08 12:38:10,946] INFO - 127.0.0.1:55466 - "GET / HTTP/1.1" 500
+[2024-03-08 12:38:10,948] ERROR - Exception in ASGI application
+  + Exception Group Traceback (most recent call last):
+  |   File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\_utils.py", line 87, in collapse_excgroups
+  |     yield
+  |   File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\middleware\base.py", line 190, in __call__
+  |     async with anyio.create_task_group() as task_group:
+  |   File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\anyio\_backends\_asyncio.py", line 678, in __aexit__
+  |     raise BaseExceptionGroup(
+  | exceptiongroup.ExceptionGroup: unhandled errors in a TaskGroup (1 sub-exception)
+  +-+---------------- 1 ----------------
+    | Traceback (most recent call last):
+    |   File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\uvicorn\protocols\http\h11_impl.py", line 412, in run_asgi
+    |     result = await app(  # type: ignore[func-returns-value]
+    |   File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\uvicorn\middleware\proxy_headers.py", line 84, in __call__
+    |     return await self.app(scope, receive, send)
+    |   File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\fastapi\applications.py", line 1054, in __call__
+    |     await super().__call__(scope, receive, send)
+    |   File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\applications.py", line 123, in __call__
+    |     await self.middleware_stack(scope, receive, send)
+    |   File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\middleware\errors.py", line 186, in __call__
+    |     raise exc
+    |   File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\middleware\errors.py", line 164, in __call__
+    |     await self.app(scope, receive, _send)
+    |   File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\middleware\base.py", line 189, in __call__
+    |     with collapse_excgroups():
+    |   File "C:\Users\Conmove_ml\AppData\Local\Programs\Python\Python310\lib\contextlib.py", line 153, in __exit__
+    |     self.gen.throw(typ, value, traceback)
+    |   File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\_utils.py", line 93, in collapse_excgroups
+    |     raise exc
+    |   File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\middleware\base.py", line 191, in __call__
+    |     response = await self.dispatch_func(request, call_next)
+    |   File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\main.py", line 54, in add_process_time_header
+    |     cur.execute(insert_query, data_to_insert)
+    | sqlite3.InterfaceError: Error binding parameter 1 - probably unsupported type.
+    +------------------------------------
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\uvicorn\protocols\http\h11_impl.py", line 412, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+  File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\uvicorn\middleware\proxy_headers.py", line 84, in __call__
+    return await self.app(scope, receive, send)
+  File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\fastapi\applications.py", line 1054, in __call__
+    await super().__call__(scope, receive, send)
+  File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\applications.py", line 123, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\middleware\errors.py", line 186, in __call__
+    raise exc
+  File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\middleware\errors.py", line 164, in __call__
+    await self.app(scope, receive, _send)
+  File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\middleware\base.py", line 189, in __call__
+    with collapse_excgroups():
+  File "C:\Users\Conmove_ml\AppData\Local\Programs\Python\Python310\lib\contextlib.py", line 153, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\_utils.py", line 93, in collapse_excgroups
+    raise exc
+  File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\middleware\base.py", line 191, in __call__
+    response = await self.dispatch_func(request, call_next)
+  File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\main.py", line 54, in add_process_time_header
+    cur.execute(insert_query, data_to_insert)
+sqlite3.InterfaceError: Error binding parameter 1 - probably unsupported type.
+[2024-03-08 12:38:10,980] INFO - 
+                "status": "success",
+                'hostname': 127.0.0.1
+                'ip_address': 127.0.0.1
+                'path': http://127.0.0.1:8000/favicon.ico
+                'method': GET
+                'status': 404
+                'response_time': 0 MS
+                
+[2024-03-08 12:38:10,981] INFO - 127.0.0.1:55465 - "GET /favicon.ico HTTP/1.1" 500
+[2024-03-08 12:38:10,982] ERROR - Exception in ASGI application
+  + Exception Group Traceback (most recent call last):
+  |   File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\_utils.py", line 87, in collapse_excgroups
+  |     yield
+  |   File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\middleware\base.py", line 190, in __call__
+  |     async with anyio.create_task_group() as task_group:
+  |   File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\anyio\_backends\_asyncio.py", line 678, in __aexit__
+  |     raise BaseExceptionGroup(
+  | exceptiongroup.ExceptionGroup: unhandled errors in a TaskGroup (1 sub-exception)
+  +-+---------------- 1 ----------------
+    | Traceback (most recent call last):
+    |   File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\uvicorn\protocols\http\h11_impl.py", line 412, in run_asgi
+    |     result = await app(  # type: ignore[func-returns-value]
+    |   File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\uvicorn\middleware\proxy_headers.py", line 84, in __call__
+    |     return await self.app(scope, receive, send)
+    |   File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\fastapi\applications.py", line 1054, in __call__
+    |     await super().__call__(scope, receive, send)
+    |   File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\applications.py", line 123, in __call__
+    |     await self.middleware_stack(scope, receive, send)
+    |   File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\middleware\errors.py", line 186, in __call__
+    |     raise exc
+    |   File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\middleware\errors.py", line 164, in __call__
+    |     await self.app(scope, receive, _send)
+    |   File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\middleware\base.py", line 189, in __call__
+    |     with collapse_excgroups():
+    |   File "C:\Users\Conmove_ml\AppData\Local\Programs\Python\Python310\lib\contextlib.py", line 153, in __exit__
+    |     self.gen.throw(typ, value, traceback)
+    |   File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\_utils.py", line 93, in collapse_excgroups
+    |     raise exc
+    |   File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\middleware\base.py", line 191, in __call__
+    |     response = await self.dispatch_func(request, call_next)
+    |   File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\main.py", line 54, in add_process_time_header
+    |     cur.execute(insert_query, data_to_insert)
+    | sqlite3.InterfaceError: Error binding parameter 1 - probably unsupported type.
+    +------------------------------------
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\uvicorn\protocols\http\h11_impl.py", line 412, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+  File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\uvicorn\middleware\proxy_headers.py", line 84, in __call__
+    return await self.app(scope, receive, send)
+  File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\fastapi\applications.py", line 1054, in __call__
+    await super().__call__(scope, receive, send)
+  File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\applications.py", line 123, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\middleware\errors.py", line 186, in __call__
+    raise exc
+  File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\middleware\errors.py", line 164, in __call__
+    await self.app(scope, receive, _send)
+  File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\middleware\base.py", line 189, in __call__
+    with collapse_excgroups():
+  File "C:\Users\Conmove_ml\AppData\Local\Programs\Python\Python310\lib\contextlib.py", line 153, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\_utils.py", line 93, in collapse_excgroups
+    raise exc
+  File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\middleware\base.py", line 191, in __call__
+    response = await self.dispatch_func(request, call_next)
+  File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\main.py", line 54, in add_process_time_header
+    cur.execute(insert_query, data_to_insert)
+sqlite3.InterfaceError: Error binding parameter 1 - probably unsupported type.
+[2024-03-08 12:38:11,173] INFO - 
+                "status": "success",
+                'hostname': 127.0.0.1
+                'ip_address': 127.0.0.1
+                'path': http://127.0.0.1:8000/
+                'method': GET
+                'status': 200
+                'response_time': 1 MS
+                
+[2024-03-08 12:38:11,174] INFO - 127.0.0.1:55469 - "GET / HTTP/1.1" 500
+[2024-03-08 12:38:11,175] ERROR - Exception in ASGI application
+  + Exception Group Traceback (most recent call last):
+  |   File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\_utils.py", line 87, in collapse_excgroups
+  |     yield
+  |   File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\middleware\base.py", line 190, in __call__
+  |     async with anyio.create_task_group() as task_group:
+  |   File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\anyio\_backends\_asyncio.py", line 678, in __aexit__
+  |     raise BaseExceptionGroup(
+  | exceptiongroup.ExceptionGroup: unhandled errors in a TaskGroup (1 sub-exception)
+  +-+---------------- 1 ----------------
+    | Traceback (most recent call last):
+    |   File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\uvicorn\protocols\http\h11_impl.py", line 412, in run_asgi
+    |     result = await app(  # type: ignore[func-returns-value]
+    |   File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\uvicorn\middleware\proxy_headers.py", line 84, in __call__
+    |     return await self.app(scope, receive, send)
+    |   File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\fastapi\applications.py", line 1054, in __call__
+    |     await super().__call__(scope, receive, send)
+    |   File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\applications.py", line 123, in __call__
+    |     await self.middleware_stack(scope, receive, send)
+    |   File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\middleware\errors.py", line 186, in __call__
+    |     raise exc
+    |   File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\middleware\errors.py", line 164, in __call__
+    |     await self.app(scope, receive, _send)
+    |   File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\middleware\base.py", line 189, in __call__
+    |     with collapse_excgroups():
+    |   File "C:\Users\Conmove_ml\AppData\Local\Programs\Python\Python310\lib\contextlib.py", line 153, in __exit__
+    |     self.gen.throw(typ, value, traceback)
+    |   File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\_utils.py", line 93, in collapse_excgroups
+    |     raise exc
+    |   File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\middleware\base.py", line 191, in __call__
+    |     response = await self.dispatch_func(request, call_next)
+    |   File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\main.py", line 54, in add_process_time_header
+    |     cur.execute(insert_query, data_to_insert)
+    | sqlite3.InterfaceError: Error binding parameter 1 - probably unsupported type.
+    +------------------------------------
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\uvicorn\protocols\http\h11_impl.py", line 412, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+  File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\uvicorn\middleware\proxy_headers.py", line 84, in __call__
+    return await self.app(scope, receive, send)
+  File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\fastapi\applications.py", line 1054, in __call__
+    await super().__call__(scope, receive, send)
+  File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\applications.py", line 123, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\middleware\errors.py", line 186, in __call__
+    raise exc
+  File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\middleware\errors.py", line 164, in __call__
+    await self.app(scope, receive, _send)
+  File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\middleware\base.py", line 189, in __call__
+    with collapse_excgroups():
+  File "C:\Users\Conmove_ml\AppData\Local\Programs\Python\Python310\lib\contextlib.py", line 153, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\_utils.py", line 93, in collapse_excgroups
+    raise exc
+  File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\middleware\base.py", line 191, in __call__
+    response = await self.dispatch_func(request, call_next)
+  File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\main.py", line 54, in add_process_time_header
+    cur.execute(insert_query, data_to_insert)
+sqlite3.InterfaceError: Error binding parameter 1 - probably unsupported type.
+[2024-03-08 12:38:11,202] INFO - 
+                "status": "success",
+                'hostname': 127.0.0.1
+                'ip_address': 127.0.0.1
+                'path': http://127.0.0.1:8000/favicon.ico
+                'method': GET
+                'status': 404
+                'response_time': 0 MS
+                
+[2024-03-08 12:38:11,203] INFO - 127.0.0.1:55468 - "GET /favicon.ico HTTP/1.1" 500
+[2024-03-08 12:38:11,203] ERROR - Exception in ASGI application
+  + Exception Group Traceback (most recent call last):
+  |   File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\_utils.py", line 87, in collapse_excgroups
+  |     yield
+  |   File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\middleware\base.py", line 190, in __call__
+  |     async with anyio.create_task_group() as task_group:
+  |   File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\anyio\_backends\_asyncio.py", line 678, in __aexit__
+  |     raise BaseExceptionGroup(
+  | exceptiongroup.ExceptionGroup: unhandled errors in a TaskGroup (1 sub-exception)
+  +-+---------------- 1 ----------------
+    | Traceback (most recent call last):
+    |   File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\uvicorn\protocols\http\h11_impl.py", line 412, in run_asgi
+    |     result = await app(  # type: ignore[func-returns-value]
+    |   File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\uvicorn\middleware\proxy_headers.py", line 84, in __call__
+    |     return await self.app(scope, receive, send)
+    |   File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\fastapi\applications.py", line 1054, in __call__
+    |     await super().__call__(scope, receive, send)
+    |   File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\applications.py", line 123, in __call__
+    |     await self.middleware_stack(scope, receive, send)
+    |   File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\middleware\errors.py", line 186, in __call__
+    |     raise exc
+    |   File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\middleware\errors.py", line 164, in __call__
+    |     await self.app(scope, receive, _send)
+    |   File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\middleware\base.py", line 189, in __call__
+    |     with collapse_excgroups():
+    |   File "C:\Users\Conmove_ml\AppData\Local\Programs\Python\Python310\lib\contextlib.py", line 153, in __exit__
+    |     self.gen.throw(typ, value, traceback)
+    |   File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\_utils.py", line 93, in collapse_excgroups
+    |     raise exc
+    |   File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\middleware\base.py", line 191, in __call__
+    |     response = await self.dispatch_func(request, call_next)
+    |   File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\main.py", line 54, in add_process_time_header
+    |     cur.execute(insert_query, data_to_insert)
+    | sqlite3.InterfaceError: Error binding parameter 1 - probably unsupported type.
+    +------------------------------------
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\uvicorn\protocols\http\h11_impl.py", line 412, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+  File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\uvicorn\middleware\proxy_headers.py", line 84, in __call__
+    return await self.app(scope, receive, send)
+  File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\fastapi\applications.py", line 1054, in __call__
+    await super().__call__(scope, receive, send)
+  File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\applications.py", line 123, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\middleware\errors.py", line 186, in __call__
+    raise exc
+  File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\middleware\errors.py", line 164, in __call__
+    await self.app(scope, receive, _send)
+  File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\middleware\base.py", line 189, in __call__
+    with collapse_excgroups():
+  File "C:\Users\Conmove_ml\AppData\Local\Programs\Python\Python310\lib\contextlib.py", line 153, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\_utils.py", line 93, in collapse_excgroups
+    raise exc
+  File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\middleware\base.py", line 191, in __call__
+    response = await self.dispatch_func(request, call_next)
+  File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\main.py", line 54, in add_process_time_header
+    cur.execute(insert_query, data_to_insert)
+sqlite3.InterfaceError: Error binding parameter 1 - probably unsupported type.
+[2024-03-08 12:38:41,138] INFO - Shutting down
+[2024-03-08 12:38:41,248] INFO - Waiting for application shutdown.
+[2024-03-08 12:38:41,248] INFO - Application shutdown complete.
+[2024-03-08 12:38:41,249] INFO - Finished server process [3716]
+[2024-03-08 12:38:43,302] INFO - Started server process [11376]
+[2024-03-08 12:38:43,306] INFO - Waiting for application startup.
+[2024-03-08 12:38:43,308] INFO - Application startup complete.
+[2024-03-08 12:38:43,309] INFO - Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+[2024-03-08 12:38:44,549] INFO - 
+                "status": "success",
+                'hostname': 127.0.0.1
+                'ip_address': 127.0.0.1
+                'path': http://127.0.0.1:8000/
+                'method': GET
+                'status': 200
+                'response_time': 41 MS
+                
+[2024-03-08 12:38:44,549] INFO - 127.0.0.1:55490 - "GET / HTTP/1.1" 500
+[2024-03-08 12:38:44,550] ERROR - Exception in ASGI application
+  + Exception Group Traceback (most recent call last):
+  |   File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\_utils.py", line 87, in collapse_excgroups
+  |     yield
+  |   File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\middleware\base.py", line 190, in __call__
+  |     async with anyio.create_task_group() as task_group:
+  |   File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\anyio\_backends\_asyncio.py", line 678, in __aexit__
+  |     raise BaseExceptionGroup(
+  | exceptiongroup.ExceptionGroup: unhandled errors in a TaskGroup (1 sub-exception)
+  +-+---------------- 1 ----------------
+    | Traceback (most recent call last):
+    |   File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\uvicorn\protocols\http\h11_impl.py", line 412, in run_asgi
+    |     result = await app(  # type: ignore[func-returns-value]
+    |   File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\uvicorn\middleware\proxy_headers.py", line 84, in __call__
+    |     return await self.app(scope, receive, send)
+    |   File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\fastapi\applications.py", line 1054, in __call__
+    |     await super().__call__(scope, receive, send)
+    |   File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\applications.py", line 123, in __call__
+    |     await self.middleware_stack(scope, receive, send)
+    |   File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\middleware\errors.py", line 186, in __call__
+    |     raise exc
+    |   File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\middleware\errors.py", line 164, in __call__
+    |     await self.app(scope, receive, _send)
+    |   File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\middleware\base.py", line 189, in __call__
+    |     with collapse_excgroups():
+    |   File "C:\Users\Conmove_ml\AppData\Local\Programs\Python\Python310\lib\contextlib.py", line 153, in __exit__
+    |     self.gen.throw(typ, value, traceback)
+    |   File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\_utils.py", line 93, in collapse_excgroups
+    |     raise exc
+    |   File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\middleware\base.py", line 191, in __call__
+    |     response = await self.dispatch_func(request, call_next)
+    |   File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\main.py", line 54, in add_process_time_header
+    |     cur.execute(insert_query, data_to_insert)
+    | sqlite3.InterfaceError: Error binding parameter 1 - probably unsupported type.
+    +------------------------------------
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\uvicorn\protocols\http\h11_impl.py", line 412, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+  File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\uvicorn\middleware\proxy_headers.py", line 84, in __call__
+    return await self.app(scope, receive, send)
+  File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\fastapi\applications.py", line 1054, in __call__
+    await super().__call__(scope, receive, send)
+  File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\applications.py", line 123, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\middleware\errors.py", line 186, in __call__
+    raise exc
+  File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\middleware\errors.py", line 164, in __call__
+    await self.app(scope, receive, _send)
+  File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\middleware\base.py", line 189, in __call__
+    with collapse_excgroups():
+  File "C:\Users\Conmove_ml\AppData\Local\Programs\Python\Python310\lib\contextlib.py", line 153, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\_utils.py", line 93, in collapse_excgroups
+    raise exc
+  File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\middleware\base.py", line 191, in __call__
+    response = await self.dispatch_func(request, call_next)
+  File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\main.py", line 54, in add_process_time_header
+    cur.execute(insert_query, data_to_insert)
+sqlite3.InterfaceError: Error binding parameter 1 - probably unsupported type.
+[2024-03-08 12:38:44,591] INFO - 
+                "status": "success",
+                'hostname': 127.0.0.1
+                'ip_address': 127.0.0.1
+                'path': http://127.0.0.1:8000/favicon.ico
+                'method': GET
+                'status': 404
+                'response_time': 0 MS
+                
+[2024-03-08 12:38:44,592] INFO - 127.0.0.1:55491 - "GET /favicon.ico HTTP/1.1" 500
+[2024-03-08 12:38:44,592] ERROR - Exception in ASGI application
+  + Exception Group Traceback (most recent call last):
+  |   File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\_utils.py", line 87, in collapse_excgroups
+  |     yield
+  |   File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\middleware\base.py", line 190, in __call__
+  |     async with anyio.create_task_group() as task_group:
+  |   File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\anyio\_backends\_asyncio.py", line 678, in __aexit__
+  |     raise BaseExceptionGroup(
+  | exceptiongroup.ExceptionGroup: unhandled errors in a TaskGroup (1 sub-exception)
+  +-+---------------- 1 ----------------
+    | Traceback (most recent call last):
+    |   File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\uvicorn\protocols\http\h11_impl.py", line 412, in run_asgi
+    |     result = await app(  # type: ignore[func-returns-value]
+    |   File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\uvicorn\middleware\proxy_headers.py", line 84, in __call__
+    |     return await self.app(scope, receive, send)
+    |   File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\fastapi\applications.py", line 1054, in __call__
+    |     await super().__call__(scope, receive, send)
+    |   File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\applications.py", line 123, in __call__
+    |     await self.middleware_stack(scope, receive, send)
+    |   File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\middleware\errors.py", line 186, in __call__
+    |     raise exc
+    |   File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\middleware\errors.py", line 164, in __call__
+    |     await self.app(scope, receive, _send)
+    |   File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\middleware\base.py", line 189, in __call__
+    |     with collapse_excgroups():
+    |   File "C:\Users\Conmove_ml\AppData\Local\Programs\Python\Python310\lib\contextlib.py", line 153, in __exit__
+    |     self.gen.throw(typ, value, traceback)
+    |   File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\_utils.py", line 93, in collapse_excgroups
+    |     raise exc
+    |   File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\middleware\base.py", line 191, in __call__
+    |     response = await self.dispatch_func(request, call_next)
+    |   File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\main.py", line 54, in add_process_time_header
+    |     cur.execute(insert_query, data_to_insert)
+    | sqlite3.InterfaceError: Error binding parameter 1 - probably unsupported type.
+    +------------------------------------
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\uvicorn\protocols\http\h11_impl.py", line 412, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+  File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\uvicorn\middleware\proxy_headers.py", line 84, in __call__
+    return await self.app(scope, receive, send)
+  File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\fastapi\applications.py", line 1054, in __call__
+    await super().__call__(scope, receive, send)
+  File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\applications.py", line 123, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\middleware\errors.py", line 186, in __call__
+    raise exc
+  File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\middleware\errors.py", line 164, in __call__
+    await self.app(scope, receive, _send)
+  File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\middleware\base.py", line 189, in __call__
+    with collapse_excgroups():
+  File "C:\Users\Conmove_ml\AppData\Local\Programs\Python\Python310\lib\contextlib.py", line 153, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\_utils.py", line 93, in collapse_excgroups
+    raise exc
+  File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\middleware\base.py", line 191, in __call__
+    response = await self.dispatch_func(request, call_next)
+  File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\main.py", line 54, in add_process_time_header
+    cur.execute(insert_query, data_to_insert)
+sqlite3.InterfaceError: Error binding parameter 1 - probably unsupported type.
+[2024-03-08 12:38:45,753] INFO - 
+                "status": "success",
+                'hostname': 127.0.0.1
+                'ip_address': 127.0.0.1
+                'path': http://127.0.0.1:8000/
+                'method': GET
+                'status': 200
+                'response_time': 1 MS
+                
+[2024-03-08 12:38:45,753] INFO - 127.0.0.1:55493 - "GET / HTTP/1.1" 500
+[2024-03-08 12:38:45,754] ERROR - Exception in ASGI application
+  + Exception Group Traceback (most recent call last):
+  |   File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\_utils.py", line 87, in collapse_excgroups
+  |     yield
+  |   File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\middleware\base.py", line 190, in __call__
+  |     async with anyio.create_task_group() as task_group:
+  |   File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\anyio\_backends\_asyncio.py", line 678, in __aexit__
+  |     raise BaseExceptionGroup(
+  | exceptiongroup.ExceptionGroup: unhandled errors in a TaskGroup (1 sub-exception)
+  +-+---------------- 1 ----------------
+    | Traceback (most recent call last):
+    |   File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\uvicorn\protocols\http\h11_impl.py", line 412, in run_asgi
+    |     result = await app(  # type: ignore[func-returns-value]
+    |   File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\uvicorn\middleware\proxy_headers.py", line 84, in __call__
+    |     return await self.app(scope, receive, send)
+    |   File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\fastapi\applications.py", line 1054, in __call__
+    |     await super().__call__(scope, receive, send)
+    |   File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\applications.py", line 123, in __call__
+    |     await self.middleware_stack(scope, receive, send)
+    |   File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\middleware\errors.py", line 186, in __call__
+    |     raise exc
+    |   File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\middleware\errors.py", line 164, in __call__
+    |     await self.app(scope, receive, _send)
+    |   File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\middleware\base.py", line 189, in __call__
+    |     with collapse_excgroups():
+    |   File "C:\Users\Conmove_ml\AppData\Local\Programs\Python\Python310\lib\contextlib.py", line 153, in __exit__
+    |     self.gen.throw(typ, value, traceback)
+    |   File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\_utils.py", line 93, in collapse_excgroups
+    |     raise exc
+    |   File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\middleware\base.py", line 191, in __call__
+    |     response = await self.dispatch_func(request, call_next)
+    |   File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\main.py", line 54, in add_process_time_header
+    |     cur.execute(insert_query, data_to_insert)
+    | sqlite3.InterfaceError: Error binding parameter 1 - probably unsupported type.
+    +------------------------------------
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\uvicorn\protocols\http\h11_impl.py", line 412, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+  File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\uvicorn\middleware\proxy_headers.py", line 84, in __call__
+    return await self.app(scope, receive, send)
+  File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\fastapi\applications.py", line 1054, in __call__
+    await super().__call__(scope, receive, send)
+  File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\applications.py", line 123, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\middleware\errors.py", line 186, in __call__
+    raise exc
+  File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\middleware\errors.py", line 164, in __call__
+    await self.app(scope, receive, _send)
+  File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\middleware\base.py", line 189, in __call__
+    with collapse_excgroups():
+  File "C:\Users\Conmove_ml\AppData\Local\Programs\Python\Python310\lib\contextlib.py", line 153, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\_utils.py", line 93, in collapse_excgroups
+    raise exc
+  File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\middleware\base.py", line 191, in __call__
+    response = await self.dispatch_func(request, call_next)
+  File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\main.py", line 54, in add_process_time_header
+    cur.execute(insert_query, data_to_insert)
+sqlite3.InterfaceError: Error binding parameter 1 - probably unsupported type.
+[2024-03-08 12:38:45,782] INFO - 
+                "status": "success",
+                'hostname': 127.0.0.1
+                'ip_address': 127.0.0.1
+                'path': http://127.0.0.1:8000/favicon.ico
+                'method': GET
+                'status': 404
+                'response_time': 1 MS
+                
+[2024-03-08 12:38:45,783] INFO - 127.0.0.1:55494 - "GET /favicon.ico HTTP/1.1" 500
+[2024-03-08 12:38:45,783] ERROR - Exception in ASGI application
+  + Exception Group Traceback (most recent call last):
+  |   File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\_utils.py", line 87, in collapse_excgroups
+  |     yield
+  |   File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\middleware\base.py", line 190, in __call__
+  |     async with anyio.create_task_group() as task_group:
+  |   File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\anyio\_backends\_asyncio.py", line 678, in __aexit__
+  |     raise BaseExceptionGroup(
+  | exceptiongroup.ExceptionGroup: unhandled errors in a TaskGroup (1 sub-exception)
+  +-+---------------- 1 ----------------
+    | Traceback (most recent call last):
+    |   File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\uvicorn\protocols\http\h11_impl.py", line 412, in run_asgi
+    |     result = await app(  # type: ignore[func-returns-value]
+    |   File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\uvicorn\middleware\proxy_headers.py", line 84, in __call__
+    |     return await self.app(scope, receive, send)
+    |   File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\fastapi\applications.py", line 1054, in __call__
+    |     await super().__call__(scope, receive, send)
+    |   File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\applications.py", line 123, in __call__
+    |     await self.middleware_stack(scope, receive, send)
+    |   File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\middleware\errors.py", line 186, in __call__
+    |     raise exc
+    |   File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\middleware\errors.py", line 164, in __call__
+    |     await self.app(scope, receive, _send)
+    |   File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\middleware\base.py", line 189, in __call__
+    |     with collapse_excgroups():
+    |   File "C:\Users\Conmove_ml\AppData\Local\Programs\Python\Python310\lib\contextlib.py", line 153, in __exit__
+    |     self.gen.throw(typ, value, traceback)
+    |   File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\_utils.py", line 93, in collapse_excgroups
+    |     raise exc
+    |   File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\middleware\base.py", line 191, in __call__
+    |     response = await self.dispatch_func(request, call_next)
+    |   File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\main.py", line 54, in add_process_time_header
+    |     cur.execute(insert_query, data_to_insert)
+    | sqlite3.InterfaceError: Error binding parameter 1 - probably unsupported type.
+    +------------------------------------
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\uvicorn\protocols\http\h11_impl.py", line 412, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+  File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\uvicorn\middleware\proxy_headers.py", line 84, in __call__
+    return await self.app(scope, receive, send)
+  File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\fastapi\applications.py", line 1054, in __call__
+    await super().__call__(scope, receive, send)
+  File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\applications.py", line 123, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\middleware\errors.py", line 186, in __call__
+    raise exc
+  File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\middleware\errors.py", line 164, in __call__
+    await self.app(scope, receive, _send)
+  File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\middleware\base.py", line 189, in __call__
+    with collapse_excgroups():
+  File "C:\Users\Conmove_ml\AppData\Local\Programs\Python\Python310\lib\contextlib.py", line 153, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\_utils.py", line 93, in collapse_excgroups
+    raise exc
+  File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\middleware\base.py", line 191, in __call__
+    response = await self.dispatch_func(request, call_next)
+  File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\main.py", line 54, in add_process_time_header
+    cur.execute(insert_query, data_to_insert)
+sqlite3.InterfaceError: Error binding parameter 1 - probably unsupported type.
+[2024-03-08 12:39:50,598] INFO - Shutting down
+[2024-03-08 12:39:50,703] INFO - Waiting for application shutdown.
+[2024-03-08 12:39:50,703] INFO - Application shutdown complete.
+[2024-03-08 12:39:50,704] INFO - Finished server process [11376]
+[2024-03-08 12:39:52,660] INFO - Started server process [6604]
+[2024-03-08 12:39:52,660] INFO - Waiting for application startup.
+[2024-03-08 12:39:52,661] INFO - Application startup complete.
+[2024-03-08 12:39:52,662] INFO - Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+[2024-03-08 12:39:54,499] INFO - 
+                "status": "success",
+                'hostname': 127.0.0.1
+                'ip_address': 127.0.0.1
+                'path': http://127.0.0.1:8000/
+                'method': GET
+                'status': 200
+                'response_time': 43 MS
+                
+[2024-03-08 12:39:54,499] INFO - 127.0.0.1:55537 - "GET / HTTP/1.1" 500
+[2024-03-08 12:39:54,500] ERROR - Exception in ASGI application
+  + Exception Group Traceback (most recent call last):
+  |   File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\_utils.py", line 87, in collapse_excgroups
+  |     yield
+  |   File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\middleware\base.py", line 190, in __call__
+  |     async with anyio.create_task_group() as task_group:
+  |   File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\anyio\_backends\_asyncio.py", line 678, in __aexit__
+  |     raise BaseExceptionGroup(
+  | exceptiongroup.ExceptionGroup: unhandled errors in a TaskGroup (1 sub-exception)
+  +-+---------------- 1 ----------------
+    | Traceback (most recent call last):
+    |   File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\uvicorn\protocols\http\h11_impl.py", line 412, in run_asgi
+    |     result = await app(  # type: ignore[func-returns-value]
+    |   File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\uvicorn\middleware\proxy_headers.py", line 84, in __call__
+    |     return await self.app(scope, receive, send)
+    |   File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\fastapi\applications.py", line 1054, in __call__
+    |     await super().__call__(scope, receive, send)
+    |   File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\applications.py", line 123, in __call__
+    |     await self.middleware_stack(scope, receive, send)
+    |   File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\middleware\errors.py", line 186, in __call__
+    |     raise exc
+    |   File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\middleware\errors.py", line 164, in __call__
+    |     await self.app(scope, receive, _send)
+    |   File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\middleware\base.py", line 189, in __call__
+    |     with collapse_excgroups():
+    |   File "C:\Users\Conmove_ml\AppData\Local\Programs\Python\Python310\lib\contextlib.py", line 153, in __exit__
+    |     self.gen.throw(typ, value, traceback)
+    |   File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\_utils.py", line 93, in collapse_excgroups
+    |     raise exc
+    |   File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\middleware\base.py", line 191, in __call__
+    |     response = await self.dispatch_func(request, call_next)
+    |   File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\main.py", line 54, in add_process_time_header
+    |     cur.execute(insert_query, data_to_insert)
+    | sqlite3.InterfaceError: Error binding parameter 1 - probably unsupported type.
+    +------------------------------------
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\uvicorn\protocols\http\h11_impl.py", line 412, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+  File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\uvicorn\middleware\proxy_headers.py", line 84, in __call__
+    return await self.app(scope, receive, send)
+  File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\fastapi\applications.py", line 1054, in __call__
+    await super().__call__(scope, receive, send)
+  File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\applications.py", line 123, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\middleware\errors.py", line 186, in __call__
+    raise exc
+  File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\middleware\errors.py", line 164, in __call__
+    await self.app(scope, receive, _send)
+  File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\middleware\base.py", line 189, in __call__
+    with collapse_excgroups():
+  File "C:\Users\Conmove_ml\AppData\Local\Programs\Python\Python310\lib\contextlib.py", line 153, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\_utils.py", line 93, in collapse_excgroups
+    raise exc
+  File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\middleware\base.py", line 191, in __call__
+    response = await self.dispatch_func(request, call_next)
+  File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\main.py", line 54, in add_process_time_header
+    cur.execute(insert_query, data_to_insert)
+sqlite3.InterfaceError: Error binding parameter 1 - probably unsupported type.
+[2024-03-08 12:39:54,576] INFO - 
+                "status": "success",
+                'hostname': 127.0.0.1
+                'ip_address': 127.0.0.1
+                'path': http://127.0.0.1:8000/favicon.ico
+                'method': GET
+                'status': 404
+                'response_time': 0 MS
+                
+[2024-03-08 12:39:54,578] INFO - 127.0.0.1:55538 - "GET /favicon.ico HTTP/1.1" 500
+[2024-03-08 12:39:54,578] ERROR - Exception in ASGI application
+  + Exception Group Traceback (most recent call last):
+  |   File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\_utils.py", line 87, in collapse_excgroups
+  |     yield
+  |   File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\middleware\base.py", line 190, in __call__
+  |     async with anyio.create_task_group() as task_group:
+  |   File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\anyio\_backends\_asyncio.py", line 678, in __aexit__
+  |     raise BaseExceptionGroup(
+  | exceptiongroup.ExceptionGroup: unhandled errors in a TaskGroup (1 sub-exception)
+  +-+---------------- 1 ----------------
+    | Traceback (most recent call last):
+    |   File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\uvicorn\protocols\http\h11_impl.py", line 412, in run_asgi
+    |     result = await app(  # type: ignore[func-returns-value]
+    |   File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\uvicorn\middleware\proxy_headers.py", line 84, in __call__
+    |     return await self.app(scope, receive, send)
+    |   File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\fastapi\applications.py", line 1054, in __call__
+    |     await super().__call__(scope, receive, send)
+    |   File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\applications.py", line 123, in __call__
+    |     await self.middleware_stack(scope, receive, send)
+    |   File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\middleware\errors.py", line 186, in __call__
+    |     raise exc
+    |   File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\middleware\errors.py", line 164, in __call__
+    |     await self.app(scope, receive, _send)
+    |   File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\middleware\base.py", line 189, in __call__
+    |     with collapse_excgroups():
+    |   File "C:\Users\Conmove_ml\AppData\Local\Programs\Python\Python310\lib\contextlib.py", line 153, in __exit__
+    |     self.gen.throw(typ, value, traceback)
+    |   File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\_utils.py", line 93, in collapse_excgroups
+    |     raise exc
+    |   File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\middleware\base.py", line 191, in __call__
+    |     response = await self.dispatch_func(request, call_next)
+    |   File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\main.py", line 54, in add_process_time_header
+    |     cur.execute(insert_query, data_to_insert)
+    | sqlite3.InterfaceError: Error binding parameter 1 - probably unsupported type.
+    +------------------------------------
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\uvicorn\protocols\http\h11_impl.py", line 412, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+  File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\uvicorn\middleware\proxy_headers.py", line 84, in __call__
+    return await self.app(scope, receive, send)
+  File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\fastapi\applications.py", line 1054, in __call__
+    await super().__call__(scope, receive, send)
+  File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\applications.py", line 123, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\middleware\errors.py", line 186, in __call__
+    raise exc
+  File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\middleware\errors.py", line 164, in __call__
+    await self.app(scope, receive, _send)
+  File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\middleware\base.py", line 189, in __call__
+    with collapse_excgroups():
+  File "C:\Users\Conmove_ml\AppData\Local\Programs\Python\Python310\lib\contextlib.py", line 153, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\_utils.py", line 93, in collapse_excgroups
+    raise exc
+  File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\middleware\base.py", line 191, in __call__
+    response = await self.dispatch_func(request, call_next)
+  File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\main.py", line 54, in add_process_time_header
+    cur.execute(insert_query, data_to_insert)
+sqlite3.InterfaceError: Error binding parameter 1 - probably unsupported type.
+[2024-03-08 12:47:18,834] INFO - 
+                "status": "success",
+                'hostname': 127.0.0.1
+                'ip_address': 127.0.0.1
+                'path': http://127.0.0.1:8000/
+                'method': GET
+                'status': 200
+                'response_time': 1 MS
+                
+[2024-03-08 12:47:18,835] INFO - 127.0.0.1:55800 - "GET / HTTP/1.1" 500
+[2024-03-08 12:47:18,836] ERROR - Exception in ASGI application
+  + Exception Group Traceback (most recent call last):
+  |   File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\_utils.py", line 87, in collapse_excgroups
+  |     yield
+  |   File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\middleware\base.py", line 190, in __call__
+  |     async with anyio.create_task_group() as task_group:
+  |   File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\anyio\_backends\_asyncio.py", line 678, in __aexit__
+  |     raise BaseExceptionGroup(
+  | exceptiongroup.ExceptionGroup: unhandled errors in a TaskGroup (1 sub-exception)
+  +-+---------------- 1 ----------------
+    | Traceback (most recent call last):
+    |   File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\uvicorn\protocols\http\h11_impl.py", line 412, in run_asgi
+    |     result = await app(  # type: ignore[func-returns-value]
+    |   File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\uvicorn\middleware\proxy_headers.py", line 84, in __call__
+    |     return await self.app(scope, receive, send)
+    |   File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\fastapi\applications.py", line 1054, in __call__
+    |     await super().__call__(scope, receive, send)
+    |   File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\applications.py", line 123, in __call__
+    |     await self.middleware_stack(scope, receive, send)
+    |   File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\middleware\errors.py", line 186, in __call__
+    |     raise exc
+    |   File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\middleware\errors.py", line 164, in __call__
+    |     await self.app(scope, receive, _send)
+    |   File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\middleware\base.py", line 189, in __call__
+    |     with collapse_excgroups():
+    |   File "C:\Users\Conmove_ml\AppData\Local\Programs\Python\Python310\lib\contextlib.py", line 153, in __exit__
+    |     self.gen.throw(typ, value, traceback)
+    |   File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\_utils.py", line 93, in collapse_excgroups
+    |     raise exc
+    |   File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\middleware\base.py", line 191, in __call__
+    |     response = await self.dispatch_func(request, call_next)
+    |   File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\main.py", line 54, in add_process_time_header
+    |     cur.execute(insert_query, data_to_insert)
+    | sqlite3.InterfaceError: Error binding parameter 1 - probably unsupported type.
+    +------------------------------------
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\uvicorn\protocols\http\h11_impl.py", line 412, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+  File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\uvicorn\middleware\proxy_headers.py", line 84, in __call__
+    return await self.app(scope, receive, send)
+  File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\fastapi\applications.py", line 1054, in __call__
+    await super().__call__(scope, receive, send)
+  File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\applications.py", line 123, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\middleware\errors.py", line 186, in __call__
+    raise exc
+  File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\middleware\errors.py", line 164, in __call__
+    await self.app(scope, receive, _send)
+  File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\middleware\base.py", line 189, in __call__
+    with collapse_excgroups():
+  File "C:\Users\Conmove_ml\AppData\Local\Programs\Python\Python310\lib\contextlib.py", line 153, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\_utils.py", line 93, in collapse_excgroups
+    raise exc
+  File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\middleware\base.py", line 191, in __call__
+    response = await self.dispatch_func(request, call_next)
+  File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\main.py", line 54, in add_process_time_header
+    cur.execute(insert_query, data_to_insert)
+sqlite3.InterfaceError: Error binding parameter 1 - probably unsupported type.
+[2024-03-08 12:47:18,879] INFO - 
+                "status": "success",
+                'hostname': 127.0.0.1
+                'ip_address': 127.0.0.1
+                'path': http://127.0.0.1:8000/favicon.ico
+                'method': GET
+                'status': 404
+                'response_time': 1 MS
+                
+[2024-03-08 12:47:18,881] INFO - 127.0.0.1:55799 - "GET /favicon.ico HTTP/1.1" 500
+[2024-03-08 12:47:18,881] ERROR - Exception in ASGI application
+  + Exception Group Traceback (most recent call last):
+  |   File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\_utils.py", line 87, in collapse_excgroups
+  |     yield
+  |   File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\middleware\base.py", line 190, in __call__
+  |     async with anyio.create_task_group() as task_group:
+  |   File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\anyio\_backends\_asyncio.py", line 678, in __aexit__
+  |     raise BaseExceptionGroup(
+  | exceptiongroup.ExceptionGroup: unhandled errors in a TaskGroup (1 sub-exception)
+  +-+---------------- 1 ----------------
+    | Traceback (most recent call last):
+    |   File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\uvicorn\protocols\http\h11_impl.py", line 412, in run_asgi
+    |     result = await app(  # type: ignore[func-returns-value]
+    |   File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\uvicorn\middleware\proxy_headers.py", line 84, in __call__
+    |     return await self.app(scope, receive, send)
+    |   File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\fastapi\applications.py", line 1054, in __call__
+    |     await super().__call__(scope, receive, send)
+    |   File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\applications.py", line 123, in __call__
+    |     await self.middleware_stack(scope, receive, send)
+    |   File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\middleware\errors.py", line 186, in __call__
+    |     raise exc
+    |   File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\middleware\errors.py", line 164, in __call__
+    |     await self.app(scope, receive, _send)
+    |   File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\middleware\base.py", line 189, in __call__
+    |     with collapse_excgroups():
+    |   File "C:\Users\Conmove_ml\AppData\Local\Programs\Python\Python310\lib\contextlib.py", line 153, in __exit__
+    |     self.gen.throw(typ, value, traceback)
+    |   File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\_utils.py", line 93, in collapse_excgroups
+    |     raise exc
+    |   File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\middleware\base.py", line 191, in __call__
+    |     response = await self.dispatch_func(request, call_next)
+    |   File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\main.py", line 54, in add_process_time_header
+    |     cur.execute(insert_query, data_to_insert)
+    | sqlite3.InterfaceError: Error binding parameter 1 - probably unsupported type.
+    +------------------------------------
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\uvicorn\protocols\http\h11_impl.py", line 412, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+  File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\uvicorn\middleware\proxy_headers.py", line 84, in __call__
+    return await self.app(scope, receive, send)
+  File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\fastapi\applications.py", line 1054, in __call__
+    await super().__call__(scope, receive, send)
+  File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\applications.py", line 123, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\middleware\errors.py", line 186, in __call__
+    raise exc
+  File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\middleware\errors.py", line 164, in __call__
+    await self.app(scope, receive, _send)
+  File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\middleware\base.py", line 189, in __call__
+    with collapse_excgroups():
+  File "C:\Users\Conmove_ml\AppData\Local\Programs\Python\Python310\lib\contextlib.py", line 153, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\_utils.py", line 93, in collapse_excgroups
+    raise exc
+  File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\middleware\base.py", line 191, in __call__
+    response = await self.dispatch_func(request, call_next)
+  File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\main.py", line 54, in add_process_time_header
+    cur.execute(insert_query, data_to_insert)
+sqlite3.InterfaceError: Error binding parameter 1 - probably unsupported type.
+[2024-03-08 13:47:21,149] INFO - Shutting down
+[2024-03-08 13:47:21,259] INFO - Waiting for application shutdown.
+[2024-03-08 13:47:21,262] INFO - Application shutdown complete.
+[2024-03-08 13:47:21,262] INFO - Finished server process [6604]
+[2024-03-08 13:51:44,381] INFO - Started server process [1340]
+[2024-03-08 13:51:44,382] INFO - Waiting for application startup.
+[2024-03-08 13:51:44,383] INFO - Application startup complete.
+[2024-03-08 13:51:44,384] INFO - Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+[2024-03-08 13:51:53,574] INFO - 
+                "status": "success",
+                'hostname': 127.0.0.1
+                'ip_address': 127.0.0.1
+                'path': http://127.0.0.1:8000/
+                'method': GET
+                'status': 200
+                'response_time': 61 MS
+                
+[2024-03-08 13:51:59,179] INFO - 127.0.0.1:61493 - "GET / HTTP/1.1" 500
+[2024-03-08 13:51:59,182] ERROR - Exception in ASGI application
+  + Exception Group Traceback (most recent call last):
+  |   File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\_utils.py", line 87, in collapse_excgroups
+  |     yield
+  |   File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\middleware\base.py", line 190, in __call__
+  |     async with anyio.create_task_group() as task_group:
+  |   File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\anyio\_backends\_asyncio.py", line 678, in __aexit__
+  |     raise BaseExceptionGroup(
+  | exceptiongroup.ExceptionGroup: unhandled errors in a TaskGroup (1 sub-exception)
+  +-+---------------- 1 ----------------
+    | Traceback (most recent call last):
+    |   File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\uvicorn\protocols\http\h11_impl.py", line 412, in run_asgi
+    |     result = await app(  # type: ignore[func-returns-value]
+    |   File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\uvicorn\middleware\proxy_headers.py", line 84, in __call__
+    |     return await self.app(scope, receive, send)
+    |   File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\fastapi\applications.py", line 1054, in __call__
+    |     await super().__call__(scope, receive, send)
+    |   File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\applications.py", line 123, in __call__
+    |     await self.middleware_stack(scope, receive, send)
+    |   File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\middleware\errors.py", line 186, in __call__
+    |     raise exc
+    |   File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\middleware\errors.py", line 164, in __call__
+    |     await self.app(scope, receive, _send)
+    |   File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\middleware\base.py", line 189, in __call__
+    |     with collapse_excgroups():
+    |   File "C:\Users\Conmove_ml\AppData\Local\Programs\Python\Python310\lib\contextlib.py", line 153, in __exit__
+    |     self.gen.throw(typ, value, traceback)
+    |   File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\_utils.py", line 93, in collapse_excgroups
+    |     raise exc
+    |   File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\middleware\base.py", line 191, in __call__
+    |     response = await self.dispatch_func(request, call_next)
+    |   File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\main.py", line 55, in add_process_time_header
+    |     cur.execute(insert_query, data_to_insert)
+    | sqlite3.OperationalError: database is locked
+    +------------------------------------
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\uvicorn\protocols\http\h11_impl.py", line 412, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+  File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\uvicorn\middleware\proxy_headers.py", line 84, in __call__
+    return await self.app(scope, receive, send)
+  File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\fastapi\applications.py", line 1054, in __call__
+    await super().__call__(scope, receive, send)
+  File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\applications.py", line 123, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\middleware\errors.py", line 186, in __call__
+    raise exc
+  File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\middleware\errors.py", line 164, in __call__
+    await self.app(scope, receive, _send)
+  File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\middleware\base.py", line 189, in __call__
+    with collapse_excgroups():
+  File "C:\Users\Conmove_ml\AppData\Local\Programs\Python\Python310\lib\contextlib.py", line 153, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\_utils.py", line 93, in collapse_excgroups
+    raise exc
+  File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\middleware\base.py", line 191, in __call__
+    response = await self.dispatch_func(request, call_next)
+  File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\main.py", line 55, in add_process_time_header
+    cur.execute(insert_query, data_to_insert)
+sqlite3.OperationalError: database is locked
+[2024-03-08 13:51:59,296] INFO - 
+                "status": "success",
+                'hostname': 127.0.0.1
+                'ip_address': 127.0.0.1
+                'path': http://127.0.0.1:8000/favicon.ico
+                'method': GET
+                'status': 404
+                'response_time': 0 MS
+                
+[2024-03-08 13:52:04,888] INFO - 127.0.0.1:61492 - "GET /favicon.ico HTTP/1.1" 500
+[2024-03-08 13:52:04,888] ERROR - Exception in ASGI application
+  + Exception Group Traceback (most recent call last):
+  |   File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\_utils.py", line 87, in collapse_excgroups
+  |     yield
+  |   File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\middleware\base.py", line 190, in __call__
+  |     async with anyio.create_task_group() as task_group:
+  |   File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\anyio\_backends\_asyncio.py", line 678, in __aexit__
+  |     raise BaseExceptionGroup(
+  | exceptiongroup.ExceptionGroup: unhandled errors in a TaskGroup (1 sub-exception)
+  +-+---------------- 1 ----------------
+    | Traceback (most recent call last):
+    |   File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\uvicorn\protocols\http\h11_impl.py", line 412, in run_asgi
+    |     result = await app(  # type: ignore[func-returns-value]
+    |   File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\uvicorn\middleware\proxy_headers.py", line 84, in __call__
+    |     return await self.app(scope, receive, send)
+    |   File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\fastapi\applications.py", line 1054, in __call__
+    |     await super().__call__(scope, receive, send)
+    |   File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\applications.py", line 123, in __call__
+    |     await self.middleware_stack(scope, receive, send)
+    |   File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\middleware\errors.py", line 186, in __call__
+    |     raise exc
+    |   File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\middleware\errors.py", line 164, in __call__
+    |     await self.app(scope, receive, _send)
+    |   File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\middleware\base.py", line 189, in __call__
+    |     with collapse_excgroups():
+    |   File "C:\Users\Conmove_ml\AppData\Local\Programs\Python\Python310\lib\contextlib.py", line 153, in __exit__
+    |     self.gen.throw(typ, value, traceback)
+    |   File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\_utils.py", line 93, in collapse_excgroups
+    |     raise exc
+    |   File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\middleware\base.py", line 191, in __call__
+    |     response = await self.dispatch_func(request, call_next)
+    |   File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\main.py", line 55, in add_process_time_header
+    |     cur.execute(insert_query, data_to_insert)
+    | sqlite3.OperationalError: database is locked
+    +------------------------------------
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\uvicorn\protocols\http\h11_impl.py", line 412, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+  File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\uvicorn\middleware\proxy_headers.py", line 84, in __call__
+    return await self.app(scope, receive, send)
+  File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\fastapi\applications.py", line 1054, in __call__
+    await super().__call__(scope, receive, send)
+  File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\applications.py", line 123, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\middleware\errors.py", line 186, in __call__
+    raise exc
+  File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\middleware\errors.py", line 164, in __call__
+    await self.app(scope, receive, _send)
+  File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\middleware\base.py", line 189, in __call__
+    with collapse_excgroups():
+  File "C:\Users\Conmove_ml\AppData\Local\Programs\Python\Python310\lib\contextlib.py", line 153, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\_utils.py", line 93, in collapse_excgroups
+    raise exc
+  File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\middleware\base.py", line 191, in __call__
+    response = await self.dispatch_func(request, call_next)
+  File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\main.py", line 55, in add_process_time_header
+    cur.execute(insert_query, data_to_insert)
+sqlite3.OperationalError: database is locked
+[2024-03-08 13:52:04,891] INFO - 
+                "status": "success",
+                'hostname': 127.0.0.1
+                'ip_address': 127.0.0.1
+                'path': http://127.0.0.1:8000/
+                'method': GET
+                'status': 200
+                'response_time': 1 MS
+                
+[2024-03-08 13:52:10,509] INFO - 127.0.0.1:61495 - "GET / HTTP/1.1" 500
+[2024-03-08 13:52:10,510] ERROR - Exception in ASGI application
+  + Exception Group Traceback (most recent call last):
+  |   File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\_utils.py", line 87, in collapse_excgroups
+  |     yield
+  |   File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\middleware\base.py", line 190, in __call__
+  |     async with anyio.create_task_group() as task_group:
+  |   File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\anyio\_backends\_asyncio.py", line 678, in __aexit__
+  |     raise BaseExceptionGroup(
+  | exceptiongroup.ExceptionGroup: unhandled errors in a TaskGroup (1 sub-exception)
+  +-+---------------- 1 ----------------
+    | Traceback (most recent call last):
+    |   File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\uvicorn\protocols\http\h11_impl.py", line 412, in run_asgi
+    |     result = await app(  # type: ignore[func-returns-value]
+    |   File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\uvicorn\middleware\proxy_headers.py", line 84, in __call__
+    |     return await self.app(scope, receive, send)
+    |   File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\fastapi\applications.py", line 1054, in __call__
+    |     await super().__call__(scope, receive, send)
+    |   File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\applications.py", line 123, in __call__
+    |     await self.middleware_stack(scope, receive, send)
+    |   File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\middleware\errors.py", line 186, in __call__
+    |     raise exc
+    |   File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\middleware\errors.py", line 164, in __call__
+    |     await self.app(scope, receive, _send)
+    |   File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\middleware\base.py", line 189, in __call__
+    |     with collapse_excgroups():
+    |   File "C:\Users\Conmove_ml\AppData\Local\Programs\Python\Python310\lib\contextlib.py", line 153, in __exit__
+    |     self.gen.throw(typ, value, traceback)
+    |   File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\_utils.py", line 93, in collapse_excgroups
+    |     raise exc
+    |   File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\middleware\base.py", line 191, in __call__
+    |     response = await self.dispatch_func(request, call_next)
+    |   File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\main.py", line 55, in add_process_time_header
+    |     cur.execute(insert_query, data_to_insert)
+    | sqlite3.OperationalError: database is locked
+    +------------------------------------
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\uvicorn\protocols\http\h11_impl.py", line 412, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+  File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\uvicorn\middleware\proxy_headers.py", line 84, in __call__
+    return await self.app(scope, receive, send)
+  File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\fastapi\applications.py", line 1054, in __call__
+    await super().__call__(scope, receive, send)
+  File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\applications.py", line 123, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\middleware\errors.py", line 186, in __call__
+    raise exc
+  File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\middleware\errors.py", line 164, in __call__
+    await self.app(scope, receive, _send)
+  File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\middleware\base.py", line 189, in __call__
+    with collapse_excgroups():
+  File "C:\Users\Conmove_ml\AppData\Local\Programs\Python\Python310\lib\contextlib.py", line 153, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\_utils.py", line 93, in collapse_excgroups
+    raise exc
+  File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\middleware\base.py", line 191, in __call__
+    response = await self.dispatch_func(request, call_next)
+  File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\main.py", line 55, in add_process_time_header
+    cur.execute(insert_query, data_to_insert)
+sqlite3.OperationalError: database is locked
+[2024-03-08 13:52:10,549] INFO - 
+                "status": "success",
+                'hostname': 127.0.0.1
+                'ip_address': 127.0.0.1
+                'path': http://127.0.0.1:8000/favicon.ico
+                'method': GET
+                'status': 404
+                'response_time': 0 MS
+                
+[2024-03-08 13:52:14,532] INFO - 127.0.0.1:61497 - "GET /favicon.ico HTTP/1.1" 404
+[2024-03-08 13:52:23,786] INFO - 
+                "status": "success",
+                'hostname': 127.0.0.1
+                'ip_address': 127.0.0.1
+                'path': http://127.0.0.1:8000/
+                'method': GET
+                'status': 200
+                'response_time': 0 MS
+                
+[2024-03-08 13:52:23,831] INFO - 127.0.0.1:61501 - "GET / HTTP/1.1" 200
+[2024-03-08 13:52:52,889] INFO - Shutting down
+[2024-03-08 13:52:52,999] INFO - Waiting for application shutdown.
+[2024-03-08 13:52:53,000] INFO - Application shutdown complete.
+[2024-03-08 13:52:53,000] INFO - Finished server process [1340]
+[2024-03-08 13:52:54,976] INFO - Started server process [5424]
+[2024-03-08 13:52:54,977] INFO - Waiting for application startup.
+[2024-03-08 13:52:54,979] INFO - Application startup complete.
+[2024-03-08 13:52:54,979] INFO - Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+[2024-03-08 13:52:57,825] INFO - 
+                "status": "success",
+                'hostname': 127.0.0.1
+                'ip_address': 127.0.0.1
+                'path': http://127.0.0.1:8000/
+                'method': GET
+                'status': 200
+                'response_time': 43 MS
+                
+[2024-03-08 13:52:57,825] INFO - 127.0.0.1:61509 - "GET / HTTP/1.1" 500
+[2024-03-08 13:52:57,826] ERROR - Exception in ASGI application
+  + Exception Group Traceback (most recent call last):
+  |   File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\_utils.py", line 87, in collapse_excgroups
+  |     yield
+  |   File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\middleware\base.py", line 190, in __call__
+  |     async with anyio.create_task_group() as task_group:
+  |   File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\anyio\_backends\_asyncio.py", line 678, in __aexit__
+  |     raise BaseExceptionGroup(
+  | exceptiongroup.ExceptionGroup: unhandled errors in a TaskGroup (1 sub-exception)
+  +-+---------------- 1 ----------------
+    | Traceback (most recent call last):
+    |   File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\uvicorn\protocols\http\h11_impl.py", line 412, in run_asgi
+    |     result = await app(  # type: ignore[func-returns-value]
+    |   File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\uvicorn\middleware\proxy_headers.py", line 84, in __call__
+    |     return await self.app(scope, receive, send)
+    |   File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\fastapi\applications.py", line 1054, in __call__
+    |     await super().__call__(scope, receive, send)
+    |   File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\applications.py", line 123, in __call__
+    |     await self.middleware_stack(scope, receive, send)
+    |   File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\middleware\errors.py", line 186, in __call__
+    |     raise exc
+    |   File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\middleware\errors.py", line 164, in __call__
+    |     await self.app(scope, receive, _send)
+    |   File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\middleware\base.py", line 189, in __call__
+    |     with collapse_excgroups():
+    |   File "C:\Users\Conmove_ml\AppData\Local\Programs\Python\Python310\lib\contextlib.py", line 153, in __exit__
+    |     self.gen.throw(typ, value, traceback)
+    |   File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\_utils.py", line 93, in collapse_excgroups
+    |     raise exc
+    |   File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\middleware\base.py", line 191, in __call__
+    |     response = await self.dispatch_func(request, call_next)
+    |   File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\main.py", line 55, in add_process_time_header
+    |     cur.execute(insert_query, data_to_insert)
+    | sqlite3.InterfaceError: Error binding parameter 1 - probably unsupported type.
+    +------------------------------------
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\uvicorn\protocols\http\h11_impl.py", line 412, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+  File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\uvicorn\middleware\proxy_headers.py", line 84, in __call__
+    return await self.app(scope, receive, send)
+  File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\fastapi\applications.py", line 1054, in __call__
+    await super().__call__(scope, receive, send)
+  File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\applications.py", line 123, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\middleware\errors.py", line 186, in __call__
+    raise exc
+  File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\middleware\errors.py", line 164, in __call__
+    await self.app(scope, receive, _send)
+  File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\middleware\base.py", line 189, in __call__
+    with collapse_excgroups():
+  File "C:\Users\Conmove_ml\AppData\Local\Programs\Python\Python310\lib\contextlib.py", line 153, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\_utils.py", line 93, in collapse_excgroups
+    raise exc
+  File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\middleware\base.py", line 191, in __call__
+    response = await self.dispatch_func(request, call_next)
+  File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\main.py", line 55, in add_process_time_header
+    cur.execute(insert_query, data_to_insert)
+sqlite3.InterfaceError: Error binding parameter 1 - probably unsupported type.
+[2024-03-08 13:53:15,641] INFO - Shutting down
+[2024-03-08 13:53:15,755] INFO - Waiting for application shutdown.
+[2024-03-08 13:53:15,756] INFO - Application shutdown complete.
+[2024-03-08 13:53:15,756] INFO - Finished server process [5424]
+[2024-03-08 13:53:17,764] INFO - Started server process [11852]
+[2024-03-08 13:53:17,765] INFO - Waiting for application startup.
+[2024-03-08 13:53:17,766] INFO - Application startup complete.
+[2024-03-08 13:53:17,767] INFO - Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+[2024-03-08 13:53:19,331] INFO - 
+                "status": "success",
+                'hostname': 127.0.0.1
+                'ip_address': 127.0.0.1
+                'path': http://127.0.0.1:8000/
+                'method': GET
+                'status': 200
+                'response_time': 49 MS
+                
+[2024-03-08 13:53:19,374] INFO - 127.0.0.1:61514 - "GET / HTTP/1.1" 200
+[2024-03-08 13:54:08,651] INFO - Shutting down
+[2024-03-08 13:54:08,763] INFO - Waiting for application shutdown.
+[2024-03-08 13:54:08,764] INFO - Application shutdown complete.
+[2024-03-08 13:54:08,764] INFO - Finished server process [11852]
+[2024-03-08 13:54:32,285] INFO - Started server process [14332]
+[2024-03-08 13:54:32,286] INFO - Waiting for application startup.
+[2024-03-08 13:54:32,288] INFO - Application startup complete.
+[2024-03-08 13:54:32,289] INFO - Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+[2024-03-08 13:54:34,071] INFO - 
+                "status": "success",
+                'hostname': 127.0.0.1
+                'ip_address': 127.0.0.1
+                'path': http://127.0.0.1:8000/
+                'method': GET
+                'status': 200
+                'response_time': 49 MS
+                
+[2024-03-08 13:54:34,072] INFO - 127.0.0.1:61528 - "GET / HTTP/1.1" 500
+[2024-03-08 13:54:34,073] ERROR - Exception in ASGI application
+  + Exception Group Traceback (most recent call last):
+  |   File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\_utils.py", line 87, in collapse_excgroups
+  |     yield
+  |   File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\middleware\base.py", line 190, in __call__
+  |     async with anyio.create_task_group() as task_group:
+  |   File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\anyio\_backends\_asyncio.py", line 678, in __aexit__
+  |     raise BaseExceptionGroup(
+  | exceptiongroup.ExceptionGroup: unhandled errors in a TaskGroup (1 sub-exception)
+  +-+---------------- 1 ----------------
+    | Traceback (most recent call last):
+    |   File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\uvicorn\protocols\http\h11_impl.py", line 412, in run_asgi
+    |     result = await app(  # type: ignore[func-returns-value]
+    |   File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\uvicorn\middleware\proxy_headers.py", line 84, in __call__
+    |     return await self.app(scope, receive, send)
+    |   File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\fastapi\applications.py", line 1054, in __call__
+    |     await super().__call__(scope, receive, send)
+    |   File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\applications.py", line 123, in __call__
+    |     await self.middleware_stack(scope, receive, send)
+    |   File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\middleware\errors.py", line 186, in __call__
+    |     raise exc
+    |   File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\middleware\errors.py", line 164, in __call__
+    |     await self.app(scope, receive, _send)
+    |   File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\middleware\base.py", line 189, in __call__
+    |     with collapse_excgroups():
+    |   File "C:\Users\Conmove_ml\AppData\Local\Programs\Python\Python310\lib\contextlib.py", line 153, in __exit__
+    |     self.gen.throw(typ, value, traceback)
+    |   File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\_utils.py", line 93, in collapse_excgroups
+    |     raise exc
+    |   File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\middleware\base.py", line 191, in __call__
+    |     response = await self.dispatch_func(request, call_next)
+    |   File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\main.py", line 53, in add_process_time_header
+    |     data_to_insert = ('',"HOME",str(request.url,int((time() - start)*1000),'300'))
+    | TypeError: str() argument 'encoding' must be str, not int
+    +------------------------------------
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\uvicorn\protocols\http\h11_impl.py", line 412, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+  File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\uvicorn\middleware\proxy_headers.py", line 84, in __call__
+    return await self.app(scope, receive, send)
+  File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\fastapi\applications.py", line 1054, in __call__
+    await super().__call__(scope, receive, send)
+  File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\applications.py", line 123, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\middleware\errors.py", line 186, in __call__
+    raise exc
+  File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\middleware\errors.py", line 164, in __call__
+    await self.app(scope, receive, _send)
+  File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\middleware\base.py", line 189, in __call__
+    with collapse_excgroups():
+  File "C:\Users\Conmove_ml\AppData\Local\Programs\Python\Python310\lib\contextlib.py", line 153, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\_utils.py", line 93, in collapse_excgroups
+    raise exc
+  File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\middleware\base.py", line 191, in __call__
+    response = await self.dispatch_func(request, call_next)
+  File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\main.py", line 53, in add_process_time_header
+    data_to_insert = ('',"HOME",str(request.url,int((time() - start)*1000),'300'))
+TypeError: str() argument 'encoding' must be str, not int
+[2024-03-08 13:55:13,119] INFO - Shutting down
+[2024-03-08 13:55:13,231] INFO - Waiting for application shutdown.
+[2024-03-08 13:55:13,232] INFO - Application shutdown complete.
+[2024-03-08 13:55:13,232] INFO - Finished server process [14332]
+[2024-03-08 13:55:24,176] INFO - Started server process [19244]
+[2024-03-08 13:55:24,177] INFO - Waiting for application startup.
+[2024-03-08 13:55:24,178] INFO - Application startup complete.
+[2024-03-08 13:55:24,178] INFO - Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+[2024-03-08 13:55:25,419] INFO - 
+                "status": "success",
+                'hostname': 127.0.0.1
+                'ip_address': 127.0.0.1
+                'path': http://127.0.0.1:8000/
+                'method': GET
+                'status': 200
+                'response_time': 37 MS
+                
+[2024-03-08 13:55:25,420] INFO - 127.0.0.1:61537 - "GET / HTTP/1.1" 500
+[2024-03-08 13:55:25,421] ERROR - Exception in ASGI application
+  + Exception Group Traceback (most recent call last):
+  |   File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\_utils.py", line 87, in collapse_excgroups
+  |     yield
+  |   File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\middleware\base.py", line 190, in __call__
+  |     async with anyio.create_task_group() as task_group:
+  |   File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\anyio\_backends\_asyncio.py", line 678, in __aexit__
+  |     raise BaseExceptionGroup(
+  | exceptiongroup.ExceptionGroup: unhandled errors in a TaskGroup (1 sub-exception)
+  +-+---------------- 1 ----------------
+    | Traceback (most recent call last):
+    |   File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\uvicorn\protocols\http\h11_impl.py", line 412, in run_asgi
+    |     result = await app(  # type: ignore[func-returns-value]
+    |   File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\uvicorn\middleware\proxy_headers.py", line 84, in __call__
+    |     return await self.app(scope, receive, send)
+    |   File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\fastapi\applications.py", line 1054, in __call__
+    |     await super().__call__(scope, receive, send)
+    |   File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\applications.py", line 123, in __call__
+    |     await self.middleware_stack(scope, receive, send)
+    |   File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\middleware\errors.py", line 186, in __call__
+    |     raise exc
+    |   File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\middleware\errors.py", line 164, in __call__
+    |     await self.app(scope, receive, _send)
+    |   File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\middleware\base.py", line 189, in __call__
+    |     with collapse_excgroups():
+    |   File "C:\Users\Conmove_ml\AppData\Local\Programs\Python\Python310\lib\contextlib.py", line 153, in __exit__
+    |     self.gen.throw(typ, value, traceback)
+    |   File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\_utils.py", line 93, in collapse_excgroups
+    |     raise exc
+    |   File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\middleware\base.py", line 191, in __call__
+    |     response = await self.dispatch_func(request, call_next)
+    |   File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\main.py", line 55, in add_process_time_header
+    |     cur.execute(insert_query, data_to_insert)
+    | sqlite3.ProgrammingError: Incorrect number of bindings supplied. The current statement uses 4, and there are 5 supplied.
+    +------------------------------------
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\uvicorn\protocols\http\h11_impl.py", line 412, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+  File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\uvicorn\middleware\proxy_headers.py", line 84, in __call__
+    return await self.app(scope, receive, send)
+  File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\fastapi\applications.py", line 1054, in __call__
+    await super().__call__(scope, receive, send)
+  File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\applications.py", line 123, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\middleware\errors.py", line 186, in __call__
+    raise exc
+  File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\middleware\errors.py", line 164, in __call__
+    await self.app(scope, receive, _send)
+  File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\middleware\base.py", line 189, in __call__
+    with collapse_excgroups():
+  File "C:\Users\Conmove_ml\AppData\Local\Programs\Python\Python310\lib\contextlib.py", line 153, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\_utils.py", line 93, in collapse_excgroups
+    raise exc
+  File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\middleware\base.py", line 191, in __call__
+    response = await self.dispatch_func(request, call_next)
+  File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\main.py", line 55, in add_process_time_header
+    cur.execute(insert_query, data_to_insert)
+sqlite3.ProgrammingError: Incorrect number of bindings supplied. The current statement uses 4, and there are 5 supplied.
+[2024-03-08 13:55:26,352] INFO - 
+                "status": "success",
+                'hostname': 127.0.0.1
+                'ip_address': 127.0.0.1
+                'path': http://127.0.0.1:8000/
+                'method': GET
+                'status': 200
+                'response_time': 1 MS
+                
+[2024-03-08 13:55:26,353] INFO - 127.0.0.1:61536 - "GET / HTTP/1.1" 500
+[2024-03-08 13:55:26,353] ERROR - Exception in ASGI application
+  + Exception Group Traceback (most recent call last):
+  |   File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\_utils.py", line 87, in collapse_excgroups
+  |     yield
+  |   File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\middleware\base.py", line 190, in __call__
+  |     async with anyio.create_task_group() as task_group:
+  |   File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\anyio\_backends\_asyncio.py", line 678, in __aexit__
+  |     raise BaseExceptionGroup(
+  | exceptiongroup.ExceptionGroup: unhandled errors in a TaskGroup (1 sub-exception)
+  +-+---------------- 1 ----------------
+    | Traceback (most recent call last):
+    |   File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\uvicorn\protocols\http\h11_impl.py", line 412, in run_asgi
+    |     result = await app(  # type: ignore[func-returns-value]
+    |   File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\uvicorn\middleware\proxy_headers.py", line 84, in __call__
+    |     return await self.app(scope, receive, send)
+    |   File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\fastapi\applications.py", line 1054, in __call__
+    |     await super().__call__(scope, receive, send)
+    |   File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\applications.py", line 123, in __call__
+    |     await self.middleware_stack(scope, receive, send)
+    |   File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\middleware\errors.py", line 186, in __call__
+    |     raise exc
+    |   File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\middleware\errors.py", line 164, in __call__
+    |     await self.app(scope, receive, _send)
+    |   File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\middleware\base.py", line 189, in __call__
+    |     with collapse_excgroups():
+    |   File "C:\Users\Conmove_ml\AppData\Local\Programs\Python\Python310\lib\contextlib.py", line 153, in __exit__
+    |     self.gen.throw(typ, value, traceback)
+    |   File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\_utils.py", line 93, in collapse_excgroups
+    |     raise exc
+    |   File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\middleware\base.py", line 191, in __call__
+    |     response = await self.dispatch_func(request, call_next)
+    |   File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\main.py", line 55, in add_process_time_header
+    |     cur.execute(insert_query, data_to_insert)
+    | sqlite3.ProgrammingError: Incorrect number of bindings supplied. The current statement uses 4, and there are 5 supplied.
+    +------------------------------------
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\uvicorn\protocols\http\h11_impl.py", line 412, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+  File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\uvicorn\middleware\proxy_headers.py", line 84, in __call__
+    return await self.app(scope, receive, send)
+  File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\fastapi\applications.py", line 1054, in __call__
+    await super().__call__(scope, receive, send)
+  File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\applications.py", line 123, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\middleware\errors.py", line 186, in __call__
+    raise exc
+  File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\middleware\errors.py", line 164, in __call__
+    await self.app(scope, receive, _send)
+  File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\middleware\base.py", line 189, in __call__
+    with collapse_excgroups():
+  File "C:\Users\Conmove_ml\AppData\Local\Programs\Python\Python310\lib\contextlib.py", line 153, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\_utils.py", line 93, in collapse_excgroups
+    raise exc
+  File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\middleware\base.py", line 191, in __call__
+    response = await self.dispatch_func(request, call_next)
+  File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\main.py", line 55, in add_process_time_header
+    cur.execute(insert_query, data_to_insert)
+sqlite3.ProgrammingError: Incorrect number of bindings supplied. The current statement uses 4, and there are 5 supplied.
+[2024-03-08 13:55:26,525] INFO - 
+                "status": "success",
+                'hostname': 127.0.0.1
+                'ip_address': 127.0.0.1
+                'path': http://127.0.0.1:8000/
+                'method': GET
+                'status': 200
+                'response_time': 1 MS
+                
+[2024-03-08 13:55:26,525] INFO - 127.0.0.1:61538 - "GET / HTTP/1.1" 500
+[2024-03-08 13:55:26,526] ERROR - Exception in ASGI application
+  + Exception Group Traceback (most recent call last):
+  |   File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\_utils.py", line 87, in collapse_excgroups
+  |     yield
+  |   File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\middleware\base.py", line 190, in __call__
+  |     async with anyio.create_task_group() as task_group:
+  |   File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\anyio\_backends\_asyncio.py", line 678, in __aexit__
+  |     raise BaseExceptionGroup(
+  | exceptiongroup.ExceptionGroup: unhandled errors in a TaskGroup (1 sub-exception)
+  +-+---------------- 1 ----------------
+    | Traceback (most recent call last):
+    |   File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\uvicorn\protocols\http\h11_impl.py", line 412, in run_asgi
+    |     result = await app(  # type: ignore[func-returns-value]
+    |   File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\uvicorn\middleware\proxy_headers.py", line 84, in __call__
+    |     return await self.app(scope, receive, send)
+    |   File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\fastapi\applications.py", line 1054, in __call__
+    |     await super().__call__(scope, receive, send)
+    |   File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\applications.py", line 123, in __call__
+    |     await self.middleware_stack(scope, receive, send)
+    |   File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\middleware\errors.py", line 186, in __call__
+    |     raise exc
+    |   File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\middleware\errors.py", line 164, in __call__
+    |     await self.app(scope, receive, _send)
+    |   File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\middleware\base.py", line 189, in __call__
+    |     with collapse_excgroups():
+    |   File "C:\Users\Conmove_ml\AppData\Local\Programs\Python\Python310\lib\contextlib.py", line 153, in __exit__
+    |     self.gen.throw(typ, value, traceback)
+    |   File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\_utils.py", line 93, in collapse_excgroups
+    |     raise exc
+    |   File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\middleware\base.py", line 191, in __call__
+    |     response = await self.dispatch_func(request, call_next)
+    |   File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\main.py", line 55, in add_process_time_header
+    |     cur.execute(insert_query, data_to_insert)
+    | sqlite3.ProgrammingError: Incorrect number of bindings supplied. The current statement uses 4, and there are 5 supplied.
+    +------------------------------------
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\uvicorn\protocols\http\h11_impl.py", line 412, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+  File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\uvicorn\middleware\proxy_headers.py", line 84, in __call__
+    return await self.app(scope, receive, send)
+  File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\fastapi\applications.py", line 1054, in __call__
+    await super().__call__(scope, receive, send)
+  File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\applications.py", line 123, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\middleware\errors.py", line 186, in __call__
+    raise exc
+  File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\middleware\errors.py", line 164, in __call__
+    await self.app(scope, receive, _send)
+  File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\middleware\base.py", line 189, in __call__
+    with collapse_excgroups():
+  File "C:\Users\Conmove_ml\AppData\Local\Programs\Python\Python310\lib\contextlib.py", line 153, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\_utils.py", line 93, in collapse_excgroups
+    raise exc
+  File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\middleware\base.py", line 191, in __call__
+    response = await self.dispatch_func(request, call_next)
+  File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\main.py", line 55, in add_process_time_header
+    cur.execute(insert_query, data_to_insert)
+sqlite3.ProgrammingError: Incorrect number of bindings supplied. The current statement uses 4, and there are 5 supplied.
+[2024-03-08 13:55:26,662] INFO - 
+                "status": "success",
+                'hostname': 127.0.0.1
+                'ip_address': 127.0.0.1
+                'path': http://127.0.0.1:8000/
+                'method': GET
+                'status': 200
+                'response_time': 0 MS
+                
+[2024-03-08 13:55:26,663] INFO - 127.0.0.1:61539 - "GET / HTTP/1.1" 500
+[2024-03-08 13:55:26,663] ERROR - Exception in ASGI application
+  + Exception Group Traceback (most recent call last):
+  |   File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\_utils.py", line 87, in collapse_excgroups
+  |     yield
+  |   File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\middleware\base.py", line 190, in __call__
+  |     async with anyio.create_task_group() as task_group:
+  |   File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\anyio\_backends\_asyncio.py", line 678, in __aexit__
+  |     raise BaseExceptionGroup(
+  | exceptiongroup.ExceptionGroup: unhandled errors in a TaskGroup (1 sub-exception)
+  +-+---------------- 1 ----------------
+    | Traceback (most recent call last):
+    |   File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\uvicorn\protocols\http\h11_impl.py", line 412, in run_asgi
+    |     result = await app(  # type: ignore[func-returns-value]
+    |   File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\uvicorn\middleware\proxy_headers.py", line 84, in __call__
+    |     return await self.app(scope, receive, send)
+    |   File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\fastapi\applications.py", line 1054, in __call__
+    |     await super().__call__(scope, receive, send)
+    |   File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\applications.py", line 123, in __call__
+    |     await self.middleware_stack(scope, receive, send)
+    |   File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\middleware\errors.py", line 186, in __call__
+    |     raise exc
+    |   File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\middleware\errors.py", line 164, in __call__
+    |     await self.app(scope, receive, _send)
+    |   File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\middleware\base.py", line 189, in __call__
+    |     with collapse_excgroups():
+    |   File "C:\Users\Conmove_ml\AppData\Local\Programs\Python\Python310\lib\contextlib.py", line 153, in __exit__
+    |     self.gen.throw(typ, value, traceback)
+    |   File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\_utils.py", line 93, in collapse_excgroups
+    |     raise exc
+    |   File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\middleware\base.py", line 191, in __call__
+    |     response = await self.dispatch_func(request, call_next)
+    |   File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\main.py", line 55, in add_process_time_header
+    |     cur.execute(insert_query, data_to_insert)
+    | sqlite3.ProgrammingError: Incorrect number of bindings supplied. The current statement uses 4, and there are 5 supplied.
+    +------------------------------------
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\uvicorn\protocols\http\h11_impl.py", line 412, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+  File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\uvicorn\middleware\proxy_headers.py", line 84, in __call__
+    return await self.app(scope, receive, send)
+  File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\fastapi\applications.py", line 1054, in __call__
+    await super().__call__(scope, receive, send)
+  File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\applications.py", line 123, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\middleware\errors.py", line 186, in __call__
+    raise exc
+  File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\middleware\errors.py", line 164, in __call__
+    await self.app(scope, receive, _send)
+  File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\middleware\base.py", line 189, in __call__
+    with collapse_excgroups():
+  File "C:\Users\Conmove_ml\AppData\Local\Programs\Python\Python310\lib\contextlib.py", line 153, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\_utils.py", line 93, in collapse_excgroups
+    raise exc
+  File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\env\lib\site-packages\starlette\middleware\base.py", line 191, in __call__
+    response = await self.dispatch_func(request, call_next)
+  File "C:\Users\Conmove_ml\Desktop\fastapiAnalytics\main.py", line 55, in add_process_time_header
+    cur.execute(insert_query, data_to_insert)
+sqlite3.ProgrammingError: Incorrect number of bindings supplied. The current statement uses 4, and there are 5 supplied.
+[2024-03-08 13:56:23,560] INFO - Shutting down
+[2024-03-08 13:56:23,670] INFO - Waiting for application shutdown.
+[2024-03-08 13:56:23,671] INFO - Application shutdown complete.
+[2024-03-08 13:56:23,671] INFO - Finished server process [19244]
+[2024-03-08 13:56:25,741] INFO - Started server process [2488]
+[2024-03-08 13:56:25,742] INFO - Waiting for application startup.
+[2024-03-08 13:56:25,743] INFO - Application startup complete.
+[2024-03-08 13:56:25,744] INFO - Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+[2024-03-08 13:56:28,104] INFO - 
+                "status": "success",
+                'hostname': 127.0.0.1
+                'ip_address': 127.0.0.1
+                'path': http://127.0.0.1:8000/
+                'method': GET
+                'status': 200
+                'response_time': 43 MS
+                
+[2024-03-08 13:56:28,148] INFO - 127.0.0.1:61549 - "GET / HTTP/1.1" 200
+[2024-03-08 13:56:55,369] INFO - Shutting down
+[2024-03-08 13:56:55,478] INFO - Waiting for application shutdown.
+[2024-03-08 13:56:55,479] INFO - Application shutdown complete.
+[2024-03-08 13:56:55,479] INFO - Finished server process [2488]
+[2024-03-08 13:56:57,814] INFO - Started server process [12156]
+[2024-03-08 13:56:57,814] INFO - Waiting for application startup.
+[2024-03-08 13:56:57,817] INFO - Application startup complete.
+[2024-03-08 13:56:57,817] INFO - Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+[2024-03-08 13:56:59,186] INFO - 
+                "status": "success",
+                'hostname': 127.0.0.1
+                'ip_address': 127.0.0.1
+                'path': http://127.0.0.1:8000/
+                'method': GET
+                'status': 200
+                'response_time': 47 MS
+                
+[2024-03-08 13:56:59,228] INFO - 127.0.0.1:61555 - "GET / HTTP/1.1" 200
+[2024-03-08 13:58:14,873] INFO - Shutting down
+[2024-03-08 13:58:14,991] INFO - Waiting for application shutdown.
+[2024-03-08 13:58:14,992] INFO - Application shutdown complete.
+[2024-03-08 13:58:14,992] INFO - Finished server process [12156]
+[2024-03-08 13:58:18,924] INFO - Started server process [17140]
+[2024-03-08 13:58:18,925] INFO - Waiting for application startup.
+[2024-03-08 13:58:18,926] INFO - Application startup complete.
+[2024-03-08 13:58:18,927] INFO - Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+[2024-03-08 14:00:52,199] INFO - Shutting down
+[2024-03-08 14:00:52,310] INFO - Waiting for application shutdown.
+[2024-03-08 14:00:52,311] INFO - Application shutdown complete.
+[2024-03-08 14:00:52,312] INFO - Finished server process [17140]
+[2024-03-08 14:00:54,272] INFO - Started server process [7896]
+[2024-03-08 14:00:54,273] INFO - Waiting for application startup.
+[2024-03-08 14:00:54,274] INFO - Application startup complete.
+[2024-03-08 14:00:54,274] INFO - Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+[2024-03-08 14:01:02,349] INFO - 
+                "status": "success",
+                'hostname': 127.0.0.1
+                'ip_address': 127.0.0.1
+                'path': http://127.0.0.1:8000/
+                'method': GET
+                'status': 200
+                'response_time': 41 MS
+                
+[2024-03-08 14:01:02,365] INFO - 127.0.0.1:61664 - "GET / HTTP/1.1" 200
+[2024-03-08 14:01:37,412] INFO - Shutting down
+[2024-03-08 14:01:37,514] INFO - Waiting for application shutdown.
+[2024-03-08 14:01:37,516] INFO - Application shutdown complete.
+[2024-03-08 14:01:37,516] INFO - Finished server process [7896]
+[2024-03-08 14:01:58,161] INFO - Started server process [12004]
+[2024-03-08 14:01:58,162] INFO - Waiting for application startup.
+[2024-03-08 14:01:58,178] INFO - Application startup complete.
+[2024-03-08 14:01:58,179] INFO - Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+[2024-03-08 14:02:02,248] INFO - 
+                "status": "success",
+                'hostname': 127.0.0.1
+                'ip_address': 127.0.0.1
+                'path': http://127.0.0.1:8000/
+                'method': GET
+                'status': 200
+                'response_time': 39 MS
+                
+[2024-03-08 14:02:02,252] INFO - 127.0.0.1:61676 - "GET / HTTP/1.1" 200
+[2024-03-08 14:02:03,062] INFO - 
+                "status": "success",
+                'hostname': 127.0.0.1
+                'ip_address': 127.0.0.1
+                'path': http://127.0.0.1:8000/
+                'method': GET
+                'status': 200
+                'response_time': 2 MS
+                
+[2024-03-08 14:02:03,078] INFO - 127.0.0.1:61676 - "GET / HTTP/1.1" 200
+[2024-03-08 14:02:08,763] INFO - 
+                "status": "success",
+                'hostname': 127.0.0.1
+                'ip_address': 127.0.0.1
+                'path': http://127.0.0.1:8000/route
+                'method': GET
+                'status': 200
+                'response_time': 2 MS
+                
+[2024-03-08 14:02:08,767] INFO - 127.0.0.1:61677 - "GET /route HTTP/1.1" 200
+[2024-03-08 15:21:50,645] INFO - Shutting down
+[2024-03-08 15:21:50,750] INFO - Waiting for application shutdown.
+[2024-03-08 15:21:50,754] INFO - Application shutdown complete.
+[2024-03-08 15:21:50,754] INFO - Finished server process [12004]
